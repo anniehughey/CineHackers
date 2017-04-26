@@ -1,0 +1,116 @@
+/* CSS Document-Infolist.css */
+/* Stylesheet for Info List pages of Cornell Cinema */
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700|Cabin+Condensed:700|Marvel:400,400italic,700);
+/*Meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+body{background-color:#0F0200;}
+body {font-size:100%;}
+body {font: 1em 'News Cycle', sans-serif; letter-spacing:.03em;}
+h3 {background-color:#182828;color:#FFFFFF;padding:.5em; font-size:1.2em;}
+a {font: 1em 'Cabin Condensed', sans-serif;}
+a:hover {color:#FFFFFF; background-color:#A80404}
+quote {font-size:small; font-style:italic}
+#mainwrapper {width:1000px; margin-left:auto; margin-right:auto;background:#0F0200; } 
+
+header {width:100%; height:70px;background-color:#821001;margin-top:18px;float:left;}
+header img {margin:-9px 9px 0 0;}
+header img {float:left;}
+header {
+/* Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5c0b00), to(#821001));
+ /* Safari 5.1, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #5c0b00, #821001); 
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #0F0200, #821001);
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #5c0b00, #821001); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #5c0b00, #821001); 
+}
+#innerwrap {background-color: darkslategrey; float:right; width:100%;}
+nav {float:left; width:170px; margin-left:-940px;} /* nagative margin moves nav column into position */
+#content {float:left; width:750px; margin-left:200px;} 
+#content {color: #013E22; background-color:ghostwhite;margin-top:12px;}
+
+.clearthis {clear:both;}
+
+/* nav styles */
+nav {padding-top:20px;}
+/*nav label {display: block; margin:20px 0 6px 8px;font-size:.75em; color:#FFFFFF;}*/
+nav ul {border:0; margin:12px 1.25em 12px 1.25em; padding:0; list-style-type:none; font-size:.9em;}
+nav li {border-bottom:2px dotted #000000; margin:0; padding:.3em 0; text-indent:.5em}
+nav li:first-child {border-top:2px dotted #000000;}
+nav a {text-decoration:none; color:#FFFFFF;}
+/*nav a:hover {color: #FFF200; background-color:#000000;}
+*/
+
+footer {color:grey;text-align:right; padding-right:.25em;}
+/* content column styles */
+
+#content p {padding:.5em; }
+#content ul {list-style-type:none; margin-left:.25em; padding:.5em;}
+#content h4 {margin: 3px 0px -2px 6px; font-size:1.25em;}
+#content a {text-decoration:none; color:darkred; font-size:1.05em;}
+#content a:hover {color:#FFFFFF; background-color:#A80404}
+
+
+.advertise li {list-style-type:square; margin: 0em 0em .5em .5em;}
+
+.rightimage {float:right; margin: 3px 0px 3px 4px;}
+.leftimage {float:left; margin: 6px;}
+.flushright {text-align: right;}
+.smalltext {font-size:.8em;}
+
+/*donate page*/
+.reverse {background-color:lightslategrey;color:white;}
+a.button{float:right; width:200px;background:#eeeeee;border:5px solid #dddddd;-webkit-border-radius: 10px;padding:10px;text-align: center; margin-left: 12px; text-decoration: underline;}
+	hr{margin: 15px 0;}
+	ol{padding-left:30px;}
+	ol li{margin-bottom:15px;}
+	
+.quote {font:marvel400;padding-left:3em;padding-right:.5em;}
+.quote em {font-size:1.05em;}
+form {float:right;}

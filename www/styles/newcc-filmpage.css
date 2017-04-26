@@ -1,0 +1,162 @@
+/* CSS Document-newcc-filmpage.css */
+/* Stylesheet for Film Pages of Cornell Cinema */
+@import url(http://fonts.googleapis.com/css?family=Arimo|News+Cycle|Cabin+Condensed:700);
+/*Meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+body {font-size:100%;}
+body {font: 1em Arimo, sans-serif; background:#0F0200;}
+body {color:#444;}
+* {margin:0; padding:0;}
+img {border:none;}
+a {text-decoration:none; color:darkred;}
+a {font: 1em 'Cabin Condensed', sans-serif;}
+dl, h1 {font: 1em 'News Cycle', sans-serif;}
+p {line-height: 1.6;}
+/*a:hover {color:#FFFFFF; background-color:#A80404} */
+
+.clearthis {clear:both;}
+
+#mainwrapper {width:1000px; margin-left:auto; margin-right:auto;background:#0F0200; } 
+
+#header {width:100%; height:70px;background-color:#821001;margin-top:18px;float:left;}/*padding-left:-6px;*/
+#header img {margin:-9px 9px 0 0;}
+#header img {float:left;}
+#header {
+/* Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5c0b00), to(#821001));
+ /* Safari 5.1, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #5c0b00, #821001); 
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #0F0200, #821001);
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #5c0b00, #821001); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #5c0b00, #821001); 
+}
+
+nav {float:right; width:620px; margin-top:24px;margin-right:3px;}
+nav {
+ 					padding:4px 0; 
+					font-size:.8em; 
+					font-weight:bold;
+					text-align:left;
+						}
+nav {float:left;}
+nav ul {margin:-18px 4px 4px 4px; padding: 4px;} 
+nav li {display:block; float:left; padding:3px  2px;}
+nav a {padding: 3px 6px; text-decoration:none; color:#FFFFFF; font-size:1.2em;}
+nav a:hover {background-color:#FFF; color:#820000;  border-top: 2px solid #FAFAD2;}
+
+#innerwrap {background-color: #EDEDED; float:right; width:100%;}
+#filmInfo {float:left; width:860px; } /*margin-bottom:1em;*/
+#film-descrip {float: right; padding: 8px 0; width: 600px; 
+					background-color:ghostwhite;}
+
+.filmformat {width:200px; float:left;  text-align:right;margin-top:3.5em;}/*padding-left:1em;*/
+.credit {font-variant:small-caps; font-size:.7em; clear:right; background-color:ghostwhite; padding-left:1em;}
+#guest {float:right;
+	width:210px;  margin-top: 48px;
+	margin-right:.5em;
+	padding: .3em;
+			color:#FFF;text-align:right;
+			background-color:darkslategrey;
+			border-top:9px solid #ddd;
+			border-bottom:9px solid #aaa;}
+#guest a {font-weight:bold; color:#fff; font-size:1.05em;}
+aside {float:right; margin-top:12px; width:120px;}
+
+#film {float:right; width:600px;background-color:#182828;margin-top:-24px; }/**/
+#film img {float:right; border-bottom:7px solid ghostwhite;}
+#film h1 {width:590px;float:left; text-align:left; margin-top:-6px; padding:5px; font-size: 1.6em; font-variant: small-caps; letter-spacing:.05em; color:#FFFFFF;background-color:#111;}
+
+
+#dateblock {color:#FFF;padding:2px; margin-left:20px;}
+#dateblock ul {font-size:.8em; }
+#dateblock li {width:18%;margin:.5em .2em; text-align:right;}
+#dateblock li {display:block; float:left; padding-right:.25em; }
+
+#dateblock-special {color:#FFF;padding:2px; margin-left:20px;}
+#dateblock-special ul {font-size:.8em; }
+#dateblock-special li {width:48%;margin:.5em .2em; text-align:left;}
+#dateblock li {display:block; float:left; padding-right:.25em; }
+
+#film-descrip img {padding:.25em; float: left;}
+
+#film-descrip h3 {font: 1.1em 'News Cycle', sans-serif; margin-top:.5em;}
+#film-descrip p {margin-top:.5em; margin-right:1em; padding-left:.25em;}
+#film-descrip blockquote {margin:.5em 1.5em;; padding-left:.25em; line-height:1.3em; font-size:.9em;}
+
+.crew dt {display:block; float:left; padding-right:.25em; text-transform:uppercase; color:#888;font-size:.9em;}
+.crew {font-weight:bold; padding-left:.25em;}
+
+.program dt {font: 1em 'Cabin Condensed', sans-serif; margin-top:.75em; padding-left:.5em;}
+
+.program dd {margin:.1em 1.5em;; padding-left:.25em; line-height:1.3em; font-size:.9em;}
+
+.cosponsor {font-variant:small-caps; font-size:.9em}
+
+#film-descrip ul {list-style:none; padding-right:1em;  margin-left:.75em;}
+#film-descrip li {margin-top:1.5em; margin-left:.5em; line-height:1.2; clear:both;}
+#film-descrip li {font-size:.85em}
+#film-descrip li img {float:left; padding: 0em  .5em .5em .75em; clear:both;}
+
+.website {margin-left:1em; clear:both;}
+.filmformat dt {font-variant:small-caps;color:#888; margin-top:.4em;}
+.trailer {background: #000; color:#FFF; margin-right:.25em; height:3em;text-transform:capitalize; padding:.25em;}
+
+#series a {display:block;}
+#series {font-size:.9em; }
+#series {float:right;}
+#series dl {padding-top:1em;}
+#series dt {margin-top:1em;margin-left:-1em;font-weight:bolder; background-color:lightgrey; }
+#series dd {padding-top:.5em; padding-right:.5em;font-size:.9em;}
+#series dd a {margin-left:-.5em; font-size:1.2em;}
+
+
+a:hover {color:#FFFFFF; background-color:#A80404}
+button {background: #000; color:#FFF; margin-right:.25em; height:3em;font-weight:bold;text-transform:uppercase; cursor:pointer;}
+

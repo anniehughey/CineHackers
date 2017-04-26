@@ -1,0 +1,62 @@
+/* CSS Document-GearPage.css */
+/* Stylesheet for Gear Page of Cornell Cinema */
+
+body {font: 1em arial, helvetica, sans-serif;color: #FFFFFF}
+* {margin:0; padding:0;}
+div#mainwrapper {width:776px; margin-left:auto; margin-right:auto;background-color: #0F0138;} /* add margin auto stuff if you want the layout centered */
+div#columnswrapper {float:left; width:776px; background-color:#0F0138;}
+.clearthis {clear:both;}
+
+div#header {width:776px; height:60px; background-color:#821001;}
+div#header img {float:left; margin:0 9px 0 0;}
+
+div#bannerpic {float:right; margin-top:-21px;background-color:#000000;}
+div#bannerpic h3 {text-align:right; width:590px; margin:2px 5px 2px 5px; font-style: italic; font-size: 1.4em; letter-spacing:.1em; color:#FFFFFF;position: relative}
+#bannerpic h4 {text-align:right; margin-top:.5em; font-size:1.1em;}
+
+
+
+
+div#contenttwo {margin: 4px; padding: 0 1em; width: 574px;float:right;}
+div#contenttwo p {font-size: .9em; line-height: 1.25em; margin-bottom: .6em;letter-spacing: .06em;}
+div#contenttwo p strong {font-size: 1.1em; font-weight:800;}
+div#contenttwo a {text-decoration:none; color:#92E4F9; font-weight:bold;}
+div#contenttwo a:hover {color:#FFFFFF; background-color:#A80404}
+
+div#items {margin-left:250px; font-size: 1em;}
+#items ul {float:left; margin: 4px;}
+#items li {list-style:square inside;}
+#items p {float:left;}
+#items h3 {float:left; margin-top:1em;}
+#items img {float:left; margin-left: -180px; margin-right: 20px; margin-top:1em; clear:left;}
+
+
+
+
+.drop {font-size:400%; float:left; margin-right: .1em; margin-bottom: .1em; line-height:.75em}
+p.image-caps {font-size: .5em; font-weight: light; font-style:italic; margin: 2px 2px 2px 90px;text-align: right;}
+.rightimage {float:right; margin: 6px;}
+.leftimage {float:left; margin: 6px;}
+.leftmore {float:left; margin: 6px 18px; border:0;}
+.popular {background-color:#000000; border: 4px solid #FFFFFF;}
+
+
+/*footer styles*/
+div#footer {		margin: 0 0 0 500px;
+ 					padding:4px 0; /* pushes the links away from top and bottom of the div */
+					font-size:.8em;  /* sets the font size of all links */
+					text-align:right; /* centers the ul elements in the div */
+					background-color:#A80404; /* sets the background color of the div */
+					border-top:1px solid #960; border-bottom:2px solid #960;}
+ div#footer ul {margin:2px 0;} /* vertical spacing between the lists */
+ div#footer li {display:inline; /* the key CSS - makes the lists display horizontally */
+						color:white; /* sets the color of the vertical lines */
+						border-left:1px solid; /* creates the vertical line to the left of each list items */
+						color:#C60; /* sets the color of the vertical lines  - links colored below */
+						padding:0 5px 0 9px; /* horiz space between links and vert lines - needed diff l & r values to center */
+						}
+ div#footer li:first-child {border-left:0;} /* removes the left border of the first list item - IDWIMIE */
+ div#footer ul li a {text-decoration:none; /* removes the underlining off the links */
+ 						 color:#FFFFFF; /* the color of the links */
+							 }
+ div#footer ul li a:hover {text-decoration:underline; color:#FFF200} /* underlines the links when hovered */

@@ -1,0 +1,113 @@
+/* CSS Document SeriesPages-newcine.css */
+/* Stylesheet for Series Pages of Cornell Cinema */
+
+@import url(http://fonts.googleapis.com/css?family=Arimo|News+Cycle:400,700|Cabin+Condensed:700);
+/*Meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+body {font-size:100%;}
+body {font: 1em Arimo, sans-serif; background-color:#0F0200;}
+body {color:#444;}
+* {margin:0; padding:0;}
+img {border:none;}
+a {text-decoration:none; color:darkred;}
+a {font: 1em 'Cabin Condensed', sans-serif;}
+dl {font: 1em 'News Cycle', sans-serif;}
+p {line-height: 1.6;}
+h1, h2 {font: 2em 'News Cycle', sans-serif;}
+h3 {font: 1.5em 'News Cycle', sans-serif;}
+
+#mainwrapper {width:1000px; margin-left:auto; margin-right:auto;background:#0F0200; }  
+#header {width:1000px; height:90px;background-color:#821001;float:left;}/*margin-top:18px;*/
+#header img {margin:9px 9px 0 0;}
+#header img {float:left;}
+#header {
+/* Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5c0b00), to(#821001));
+ /* Safari 5.1, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #5c0b00, #821001); 
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #0F0200, #821001);
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #5c0b00, #821001); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #5c0b00, #821001); 
+}
+header {position:fixed; z-index:20}
+
+nav {float:right; width:620px; margin-top:36px;margin-right:3px;}
+nav {
+ 					padding:4px 0; 
+					font-size:.8em; 
+					font-weight:bold;
+					text-align:left;
+						}
+nav {float:left;}
+nav ul {margin:-18px 4px 4px 4px; padding: 4px;} 
+nav li {display:block; float:left; padding:3px  2px;}
+nav a {padding: 3px 6px; text-decoration:none; color:#FFFFFF; font-size:1.2em;}
+nav a:hover {background-color:#FFF; color:#820000;  border-top: 2px solid #FAFAD2;}
+
+#topper {background-color: darkslategrey; float:right; width:100%;}
+
+#topper a:hover, .calendar a:hover {color:#FFFFFF; background-color:#A80404}
+#topper {min-height:140px;}
+
+#reset-height {position:relative; height:220px;}
+div#topper {text-align:center;}
+#topper a, .calendar a {text-decoration:none; color:#04C9FA; font-weight:bold; letter-spacing:.05em;font-size:1em;}
+#topper, #content, .calendar {color:lightgrey;}
+
+p {text-align: center; font-size: .9em;}
+th {background-color:teal;}
+table {WIDTH:1000px; BORDER: solid 1px; align:center;}
+.calendar th {width:14.3%; text-align: center; BORDER: outset 1px; vertical-align:center; padding: 2px;}
+.calendar td {width:14.3%; text-align: center; BORDER: outset 1px; vertical-align:top;padding: 1px 2px;background-color:#182828;}
+/*.calendar td h3 {font-size: 1.2em; font-weight: 100; color:#821001;}*/
+.calendar td p {margin-top: .25em;}
+/*.calendar td a {font-size:.85em;}*/
+.calendar td em {margin: 0em;}
+
+

@@ -1,0 +1,97 @@
+/* CSS Document-CineHome.css */
+/* Stylesheet for home page of Cornell Cinema */
+
+/* The Wyke-Switch - by Charlie Wyke-Smith - switch your left and center columns in your layout to have the center column first in the markup!
+ Putting the content first in your markup can significantly improve your search engine rankings.
+This demo shows the CSS required to switch the left and center column - the center column (content - div "column2") 
+is first in the markup but appears after the left column (navigation - div "column1") in the layout.
+Without the margin-left properties on columns 1 and 2, they appear in the browser in the order shown in the markup - 2, 1, 3.
+This arrangement is achieved by the use of a negative left margin on column 1 to move it to the left and
+a a positive left margin on column 2 to move it to the right, which exchanges the position of the two columns.
+Note that left margins on left floats get doubled in IE unles you apply the Steve Caslon hack of adding display:inline to
+the element, in this case column 2. More on this bug at http://www.positioniseverything.net/explorer/doubled-margin.html  
+This example also uses a floated wrapper around the three columns - this forces the wrapper to enclose the three columns 
+so that the footer is always below whichever column is longest */
+
+body {font: 1em arial, helvetica, sans-serif;}
+* {margin:0; padding:0;}
+
+div#mainwrapper {width:776px; margin-left:auto; margin-right:auto;} /* add margin auto stuff if you want the layout centered */
+div#header {width:776px; height:60px; border-bottom:1px solid #960;background-color:#A80404;}
+div#header img {float:left; margin:0 9px 0 0;}
+div#header h3 {font-style: italic; font-size: 1.4em; padding-top: 30px; color:#FFFFFF;}
+div#columnswrapper {float:left; width:776px; background-color:#223922;}
+div#nav {float:left; width:150px; margin-left:-626px;} /* nagative margin moves nav column into position */
+div#content {float:left; width:476px; margin-left:150px; display:inline;} /* display inline is hack fix for IE */
+div#rightcolumn {float:left; width:150px}
+div#footer {width:776px;}
+.clearthis {clear:both;}
+
+/* content column styles */
+div#content {margin-top: 6px; margin-bottom: 6px;}
+div#content {background-color:#FFFFFF;}
+
+div#series-list {position:relative; margin-top: -200px;float:right; width: 200px;font-size:.8em; border-top: 3px dotted #960; border-bottom:2px dotted #960; padding: 6px 10px;}
+div#series-list p {margin:0; font-style:italic;}
+div#series-list ul {border:0; margin:6px .5em 3px 1em; padding:0; list-style-type:none; font-weight:bold;}
+div#series-list li {margin:0; padding:.2em 0; text-align:right;}
+div#series-list a {text-decoration:none; color:#C60;}
+div#series-list a:hover {background-color:#A80404; color:#FFFFFF;}
+
+div#content p {font-size:.75em; line-height:1.5em; margin-top:0; margin-bottom:.5em;text-align:right;}	
+div#content a {text-decoration:none; color:#C60;}
+div#content a:hover {background-color:#A80404; color:#FFFFFF;}
+div#content h3 {color:#223922; text-align:right;}
+
+div#contentinner {margin: 0 6px 20px;}
+
+
+
+/* nav styles */
+div#nav {padding-top:20px;}
+div#nav label {display: block; margin:20px 0 6px 8px;font-size:.75em; color:#FFFFFF;}
+div#nav ul {border:0; margin:12px 1.25em 12px 1.25em; padding:0; list-style-type:none; font-weight:bold; font-size:.75em;}
+div#nav li {border-bottom:2px dotted #960; margin:0; padding:.3em 0; text-indent:.5em}
+div#nav li:first-child {border-top:2px dotted #960;}
+div#nav a {text-decoration:none; color:#FFFFFF;}
+div#nav a:hover {color: #FFF200; background-color:#000000;}
+/* a hack for IE Win only \*/	
+* html div#nav ul {border-top:2px dotted #960;}
+/*end of hack */
+
+/* right column styles */
+div#rightcolumn {padding-top:6px;}
+div#rightcolumn p {font-size:.75em;}
+div#rightcolumn img {border:none; border-top:2px solid #960;border-bottom:2px solid #960;}
+div#rightcolumn div#filmsites ul {list-style-type:none; font-size:.9em; padding-left: 10px; margin:0 6px 0 0;text-align:center;}
+div#rightcolumn div#filmsites li {margin-top:0; margin-bottom:.5em;}
+div#rightcolumn h3 {text-align:center; font-size:.85em; color:#FFFFFF; margin-bottom:4px; padding-top:3px; border-top: 2px dotted #960;}
+div#rightcolumn a {text-decoration:none; color:#FFF200; text-align:center;}
+div#rightcolumn a:hover {color: #FFFFFF; text-decoration: none; background-color:#A80404;}
+div#rightcolumn li.morelink {font-style:italic;}
+div#hilites {background-color:#CCFFCC}
+div#hilites p {text-align:center; font-size:1em;}
+div#hilites a {text-decoration:none; color:#C60;}
+div#hilites a:hover {background-color:#A80404; color:#FFFFFF;}
+/*footer styles*/
+div#footer {
+ 					padding:4px 0; /* pushes the links away from top and bottom of the div */
+					font-size:.8em;  /* sets the font size of all links */
+					text-align:center; /* centers the ul elements in the div */
+					background-color:#A80404; /* sets the background color of the div */
+					border-top:1px solid #960; border-bottom:2px solid #960;}
+ div#footer ul {margin:2px 0;} /* vertical spacing between the lists */
+ div#footer li {display:inline; /* the key CSS - makes the lists display horizontally */
+						color:white; /* sets the color of the vertical lines */
+						border-left:1px solid; /* creates the vertical line to the left of each list items */
+						color:#C60; /* sets the color of the vertical lines  - links colored below */
+						padding:0 5px 0 9px; /* horiz space between links and vert lines - needed diff l & r values to center */
+						}
+ div#footer li:first-child {border-left:0;} /* removes the left border of the first list item - IDWIMIE */
+ div#footer ul li a {text-decoration:none; /* removes the underlining off the links */
+ 						 color:#FFFFFF; /* the color of the links */
+							 }
+ div#footer ul li a:hover {text-decoration:underline; color:#FFF200} /* underlines the links when hovered */
+ div#footer ul.fineprint li {color:#C60;} /* color for copyright and vert dividers on last row */
+ div#footer ul.fineprint li a {color:#C60;} /* had to explicitly color these or they inherit from div#footer li */
+  div#footer ul.fineprint li a:hover {color:#960;} /* turns bottom row white when hovered */

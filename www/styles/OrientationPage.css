@@ -1,0 +1,52 @@
+/* CSS Document-OrientationPage.css */
+/* Stylesheet for Orientation Page of Cornell Cinema */
+
+body {font: 1em arial, helvetica, sans-serif;color: #4A370A}
+* {margin:0; padding:0;}
+h4 {font-size:1em; color:#824101; font-style:italic;}
+div#mainwrapper {width:776px; margin-left:auto; margin-right:auto;background-color: #FCF9BB;} /* add margin auto stuff if you want the layout centered */
+div#header {width:776px; height:52px; border-bottom:1px solid #960;background-color:#821001;}
+div#header img {float:left; margin:0 9px 0 0;position:relative}
+div#header h3 {float:right; margin:0 9px 0 0; font-style: italic; font-size: 1.4em; letter-spacing:.1em; padding-top:18px; color:#FFFFFF;position:relative}
+div#bannerpic {float:right; margin:-37px 6px 6px; border-top: solid #000000 24px}
+
+div#content {margin:12px; padding: 0 1em;}
+div#content p {font-size: 1.1em; line-height: 1.4em; margin-bottom: .4em;letter-spacing: .06em; color:#821001;}	
+div#content a {text-decoration:none; color:#12005E; font-weight:bold;}
+div#content a:hover {color:#FFFFFF; background-color:#A80404}
+
+div#contentone {margin:6px 6px 6px 12px; padding: 0 1em; clear:both}
+div#contentone p {font-size:.9em; margin:1em; margin-bottom: .4em;letter-spacing: .06em;}
+div#contentone img {float:left; margin: 2px;}
+div#contenttwo {margin:6px 6px 6px 12px; padding: 0 1em; clear:both}
+
+div#contenttwo p {font-size: .9em;text-indent:-4.5em; margin-left:6em; margin-right:4em; margin-bottom: .4em;letter-spacing: .06em;}
+
+div#contenttwo a {text-decoration:none; color:#12005E; font-weight:bold;}
+div#contenttwo a:hover {color:#FFFFFF; background-color:#A80404}
+
+div#contenttwo h3 {font-size: 1.1em; margin-bottom: .5em; color:#821001;}
+
+p.special:first-letter {vertical-align:40%; font-size:400%; float:left; margin-left: -10px;}
+p.image-caps {font-size: .5em; font-weight: light; font-style:italic; margin: 2px 2px 2px 90px;text-align: right;}
+.rightimage {float:right; margin: 6px;}
+
+/*footer styles*/
+div#footer {		margin: 0 0 0 500px;
+ 					padding:4px 0; /* pushes the links away from top and bottom of the div */
+					font-size:.8em;  /* sets the font size of all links */
+					text-align:right; /* centers the ul elements in the div */
+					background-color:#A80404; /* sets the background color of the div */
+					border-top:1px solid #960; border-bottom:2px solid #960;}
+ div#footer ul {margin:2px 0;} /* vertical spacing between the lists */
+ div#footer li {display:inline; /* the key CSS - makes the lists display horizontally */
+						color:white; /* sets the color of the vertical lines */
+						border-left:1px solid; /* creates the vertical line to the left of each list items */
+						color:#C60; /* sets the color of the vertical lines  - links colored below */
+						padding:0 5px 0 9px; /* horiz space between links and vert lines - needed diff l & r values to center */
+						}
+ div#footer li:first-child {border-left:0;} /* removes the left border of the first list item - IDWIMIE */
+ div#footer ul li a {text-decoration:none; /* removes the underlining off the links */
+ 						 color:#FFFFFF; /* the color of the links */
+							 }
+ div#footer ul li a:hover {text-decoration:underline; color:#FFF200} /* underlines the links when hovered */

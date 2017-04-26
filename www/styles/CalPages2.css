@@ -1,0 +1,66 @@
+/* CSS Document-CalPages.css */
+/* Stylesheet for Film Pages of Cornell Cinema */
+
+body {font: 1em verdana, helvetica, sans-serif; color:#013E22;}
+* {margin:0; padding:0;}
+img {border:none;}
+a {text-decoration:none; color:#FFFFFF;}
+/*a:hover {color:#FFFFFF; background-color:#A80404} */
+
+div#mainwrapper {width:776px; margin-left:auto; margin-right:auto;background-color: #FBF8B0;} /* add margin auto stuff if you want the layout centered */
+
+div#header {width:776px; height:60px;background-color:#821001;}
+div#header img {float:left; margin:0 9px 0 0; border:none;}
+
+div#bannerpic {float:right; margin-top:-18px;background-color:#002B17;width:600px;}
+#bannerpic img {float:right;}
+#bannerpic h1 {width:500px; float:right; text-align:right; margin:-6px 5px 5px 5px; font-size: 1.6em; font-variant: small-caps; letter-spacing:.05em; color:#FFFFFF;}
+#bannerpic h2 {float:right;text-align:right; width:590px; margin:2px 5px; font-size: 1.2em; font-style: italic; letter-spacing:.1em; color:#FFFFFF;position:relative;}
+
+.filmfacts {color:#FFFFFF;width:590px; margin:2px 8px; 
+font-weight:bold; font-size: 1.05em;text-align:right;line-height: 1.3em;letter-spacing:.05em;float:right;}
+.specialinfo {color:#821001;  font-weight:bold; font-variant:small-caps}
+.caption {font-size:.85em; padding-left:2em;}
+.clearthis {clear:both;}
+.filmformat {font-size: .9em; font-variant:small-caps; padding-left: 1em;}
+
+div#dateblock {margin:12px 0px 0px 14px;background-color:#821001;color:#FFFFFF;padding:6px 6px 6px 14px;width:132px; float:left}
+div#dateblock:before {content:"Playing on";color:#FFFFFF;}
+div#dateblock ul {list-style-type:square; font-weight:bold; font-size:.75em; padding:.5px;}
+div#dateblock li {margin-top:.4em; margin-bottom:.9em;font-weight:bold;color:#FFFFFF;}
+div#dateblock a:hover {background-color:#002B17;}
+
+div#series {margin:12px 0px 0px 4px;padding:8px 3px; font-size:.85em;background-color: #FBF8B0;color:#013E22;}
+#series:before {content:"Film Series";}
+#series a {display:block;}
+#series a {color:#12005E; font-weight:bold;margin-top:.5em;margin-left:.5em; clear:left}
+#series a:hover {color:#FFFFFF; background-color:#A80404}
+#series {clear: left; width: 120px; float: left;}
+
+div#content {margin:0 0 24px 176px; padding:.5em 1em;border: solid 2px; clear:right}
+div#content p {line-height: 1.3em; margin-bottom:.2em;}	
+div#content a {text-decoration:none; color:#12005E; font-weight:bold;}
+div#content a:hover {color:#FFFFFF; background-color:#A80404}
+div#content ul {list-style:none;}
+div#content li {font-size:.85em; margin-top:.75em; margin-left:30px; clear:both;}
+#content li img {float:left; padding: 0em  .5em .5em .5em; clear:both;}
+
+/*footer styles*/
+div#footer {		margin: 0 0 0 500px;
+ 					padding:4px 0; /* pushes the links away from top and bottom of the div */
+					font-size:.8em;  /* sets the font size of all links */
+					text-align:right; /* centers the ul elements in the div */
+					background-color:#821001; /* sets the background color of the div */
+					border-top:1px solid #960; border-bottom:2px solid #960;}
+ div#footer ul {margin:2px 0;} /* vertical spacing between the lists */
+ div#footer li {display:inline; /* the key CSS - makes the lists display horizontally */
+						color:white; /* sets the color of the vertical lines */
+						border-left:1px solid; /* creates the vertical line to the left of each list items */
+						color:#C60; /* sets the color of the vertical lines  - links colored below */
+						padding:0 5px 0 9px; /* horiz space between links and vert lines - needed diff l & r values to center */
+						}
+ div#footer li:first-child {border-left:0;} /* removes the left border of the first list item - IDWIMIE */
+ div#footer ul li a {text-decoration:none; /* removes the underlining off the links */
+ 						 color:#FFFFFF; /* the color of the links */
+							 }
+ div#footer ul li a:hover {text-decoration:underline; color:#FFF200} /* underlines the links when hovered */

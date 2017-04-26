@@ -1,0 +1,118 @@
+/* CSS Document-Alphalist-newcine.css */
+/* Stylesheet for Alpha List page of Cornell Cinema */
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:700);
+/*Meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+
+body {font: 1em verdana, helvetica, sans-serif; color:#0F0200;}
+a {font-family: 'Cabin Condensed', sans-serif;}
+#mainwrapper {width:1000px; margin-left:auto; margin-right:auto;background:darkslategrey; } 
+#header {width:100%; height:70px;background-color:#821001;margin-top:18px;float:left;}/*padding-left:-6px;*/
+#header img {margin:-9px 9px 0 0;}
+#header img {float:left;}
+#header {
+/* Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5c0b00), to(#821001));
+ /* Safari 5.1, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #5c0b00, #821001); 
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #0F0200, #821001);
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #5c0b00, #821001); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #5c0b00, #821001); 
+}
+
+div#nav {float:left; width:150px; margin-left:-776px;}
+div#content {float:left; width:610px; margin-left:150px;padding-left:12px; } 
+.clearthis {clear:both;}
+
+/* nav styles */
+div#nav {padding-top:18px;}
+div#nav label {display: block; margin:20px 0 6px 8px;font-size:.75em; color:#FFFFFF;}
+div#nav ul {border:0; margin:12px 1.25em 12px 1.25em; padding:0; list-style-type:none; font-weight:bold; font-size:.85em;}
+div#nav li {border-bottom:2px dotted #000000; margin:0; padding:.3em 0; text-indent:.5em}
+div#nav li:first-child {border-top:2px dotted #000000;}
+div#nav a {text-decoration:none; color:#FFFFFF;}
+div#nav a:hover {color: #FFF; background-color:#821001;}
+/* a hack for IE Win only \*/	
+* html div#nav ul {border-top:2px dotted #000000;}
+/*end of hack */
+
+/* content column styles */
+div#content {border-left:solid 4px;}
+div#content {background-color:ghostwhite;}
+div#content h3 {background-color:#111;color:#FFFFFF;padding:.5em;}
+div#content ul {list-style-type:none; margin: 6px; padding:.5em;}	
+div#content a {text-decoration:none; color:darkslategrey; font-weight:bold;}
+div#content a:hover {color:#FFFFFF; background-color:#A80404}
+
+
+/*footer styles*/
+/*footer styles*/
+#footer {clear:both;}
+div#footer {
+ 					padding:4px 0; /* pushes the links away from top and bottom of the div */
+					font-size:.8em;  /* sets the font size of all links */
+					text-align:center; /* centers the ul elements in the div */
+					background-color:#821001; /* sets the background color of the div */
+					border-top:4px solid; border-bottom:6px solid;}
+ div#footer ul {margin:2px 0;} /* vertical spacing between the lists */
+ div#footer li {display:inline; /* the key CSS - makes the lists display horizontally */
+						color:white; /* sets the color of the vertical lines */
+						border-left:1px solid; /* creates the vertical line to the left of each list items */
+						color:#C60; /* sets the color of the vertical lines  - links colored below */
+						padding:0 5px 0 9px; /* horiz space between links and vert lines - needed diff l & r values to center */
+						}
+ div#footer li:first-child {border-left:0;} /* removes the left border of the first list item - IDWIMIE */
+ div#footer ul li a {text-decoration:none; /* removes the underlining off the links */
+ 						 color:#FFFFFF; /* the color of the links */
+							 }
+ div#footer ul li a:hover {text-decoration:underline; color:#FFF200} /* underlines the links when hovered */
+ div#footer ul.fineprint li {color:#C60;} /* color for copyright and vert dividers on last row */
+ div#footer ul.fineprint li a {color:#C60;} /* had to explicitly color these or they inherit from div#footer li */
+  div#footer ul.fineprint li a:hover {color:#960;} /* turns bottom row white when hovered */

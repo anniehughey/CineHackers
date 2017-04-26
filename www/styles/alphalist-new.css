@@ -1,0 +1,105 @@
+/* CSS Document-Alphalist-newcine.css */
+/* Stylesheet for Alpha List page of Cornell Cinema */
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:700);
+/*Meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+
+body {font: 1em verdana, helvetica, sans-serif; color:#0F0200;}
+a {font-family: 'Cabin Condensed', sans-serif;}
+#mainwrapper {width:1000px; margin-left:auto; margin-right:auto;background:darkslategrey; } 
+#header {width:100%; height:70px;background-color:#821001;margin-top:18px;float:left;}/*padding-left:-6px;*/
+#header img {margin:-9px 9px 0 0;}
+#header img {float:left;}
+#header {
+/* Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5c0b00), to(#821001));
+ /* Safari 5.1, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #5c0b00, #821001); 
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #0F0200, #821001);
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #5c0b00, #821001); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #5c0b00, #821001); 
+}
+
+div#content {float:left; width:980px; margin-left:6px;padding-left:6px; } 
+.clearthis {clear:both;}
+
+/* nav styles */
+
+nav {float:right; width:620px; margin-top:24px;margin-right:3px;}
+nav {
+ 					padding:4px 0; 
+					font-size:.8em; 
+					font-weight:bold;
+					text-align:left;
+						}
+nav {float:left;}
+nav ul {margin:-18px 4px 4px 4px; padding: 4px;} 
+nav li {display:block; float:left; padding:3px  2px;}
+nav a {padding: 3px 6px; text-decoration:none; color:#FFFFFF; font-size:1.2em;}
+nav a:hover {background-color:#FFF; color:#820000;  border-top: 2px solid #FAFAD2;}
+
+/* content column styles */
+#content {border-left:solid 4px;}
+#content {background-color:black;}
+#content h3 {background-color:#111;color:#FFFFFF;padding:.5em;}
+#content ul {list-style-type:none; margin: 6px; padding:.5em;}
+#content a{display:block;}	
+#content a {text-decoration:none; color:ghostwhite; font-weight:bold;} /*;*/
+#content a img {margin-left:-.25em;margin-right:1em;}
+/*#content a:hover {font-size:1.1em;letter-spacing:.05em;padding-top:1em;}*/
+#content li:hover {color:#FFFFFF; background-color:#A80404;}
+#content li:hover img{display:none;}
+
+#content li {display:block; width:175px;;color:ghostwhite;background-color:darkslategrey;margin-right:12px; margin-bottom:15px;}
+#content li{border-top:2px solid slategrey; border-left:3px solid darkslategrey;}
+#content li {float:left; overflow:hidden}
+#content li {height:210px;}
+
+/*footer styles*/

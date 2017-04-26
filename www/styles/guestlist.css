@@ -1,0 +1,67 @@
+/* CSS Document-Guestlist.css */
+/* Stylesheet for Special Guests List page of Cornell Cinema */
+
+body {font: 1em arial, helvetica, sans-serif; color:#29015F;}
+* {margin:0; padding:0;}
+div#mainwrapper {width:776px; margin-left:auto; margin-right:auto;background-color:#BE92FB;} /* add margin auto stuff if you want the layout centered */
+div#columnswrapper {float:left; width:776px;}
+.clearthis {clear:both;}
+
+div#header {width:776px; height:60px;background-color:#821001;}
+div#header img {float:left; margin:0 9px 0 0;}
+
+div#bannerpic {float:right; margin-top:-18px;background-color:#29015F;}
+div#bannerpic h3 {text-align:right; width:766px; margin:2px 5px 2px 5px; font-style: italic; font-size: 1.4em; letter-spacing:.1em; color:#FFFFFF;position:relative;}
+
+
+div#guests {float:left; width:360px; margin: 6px; color:#29015F;} 
+div#content {float:right; width:380px; display:inline;} /* display inline is hack fix for IE */
+
+
+/* guests styles */
+
+div#guests ul {border:0; margin:12px 1.25em 12px 1.25em; padding:0; list-style-type:none; font-weight:normal; font-size:1em;}
+div#guests li {text-align:center; border-bottom:2px dotted #000000; margin:0; padding:.3em 0; text-indent:.5em}
+div#guests li:first-child {border-top:2px dotted #000000;}
+div#guests a {text-decoration:none; color:#86039A;font-weight:bold}
+div#guests a:hover {color: #FFF200; background-color:#000000;}
+/* a hack for IE Win only \*/	
+* html div#guests ul {border-top:2px dotted #000000;}
+div#guests h2 {font-size:1.3em;}
+div#guests h3 {color:#821001;}
+/*end of hack */
+
+/* content column styles */
+div#content {border-top: solid 12px; border-left:solid 8px;border-bottom:solid 8px; color:#86039A;}
+div#content {background-color:#D4DFF7;}
+div#content p {color:#021540; padding: .5em;font-size:.75em; line-height: 1.3em;}
+div#content h3 {background-color:#29015F;color:#FFFFFF;padding:.5em;font-size:.9em}
+div#content a {text-decoration:none; color:#12005E; font-weight:bold;}
+div#content a:hover {color:#FFFFFF; background-color:#A80404}
+
+.rightimage {float:right; margin: 6px;}
+.leftimage {float:left; margin: 6px;}
+
+/*footer styles*/
+/*footer styles*/
+div#footer {		margin: 0 0 0 500px;
+ 					padding:4px 0; /* pushes the links away from top and bottom of the div */
+					font-size:.8em;  /* sets the font size of all links */
+					text-align:center; /* centers the ul elements in the div */
+					background-color:#821001; /* sets the background color of the div */
+					border-top:4px solid; border-bottom:6px solid;}
+ div#footer ul {margin:2px 0;} /* vertical spacing between the lists */
+ div#footer li {display:inline; /* the key CSS - makes the lists display horizontally */
+						color:white; /* sets the color of the vertical lines */
+						border-left:1px solid; /* creates the vertical line to the left of each list items */
+						color:#C60; /* sets the color of the vertical lines  - links colored below */
+						padding:0 5px 0 9px; /* horiz space between links and vert lines - needed diff l & r values to center */
+						}
+ div#footer li:first-child {border-left:0;} /* removes the left border of the first list item - IDWIMIE */
+ div#footer ul li a {text-decoration:none; /* removes the underlining off the links */
+ 						 color:#FFFFFF; /* the color of the links */
+							 }
+ div#footer ul li a:hover {text-decoration:underline; color:#FFF200} /* underlines the links when hovered */
+ div#footer ul.fineprint li {color:#C60;} /* color for copyright and vert dividers on last row */
+ div#footer ul.fineprint li a {color:#C60;} /* had to explicitly color these or they inherit from div#footer li */
+  div#footer ul.fineprint li a:hover {color:#960;} /* turns bottom row white when hovered */
