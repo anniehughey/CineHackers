@@ -1,0 +1,383 @@
+/*
+	Skin Name: Minimal Small (Cinema)
+	Class: minimal-small-cine
+	Description: Minimal Small skin for Advanced Slider jQuery plugin
+	Author: David (revisions Haarstad)
+*/
+
+
+/* MAIN SLIDE */
+
+.minimal-small-cine .slide-wrapper {
+	background-color: #000;
+	border: 2px solid #CEB6B2;
+
+-moz-box-shadow: 10px 10px 6px #1C0300;
+-webkit-box-shadow: 10px 10px 6px #1C0300;
+box-shadow:  10px 10px 6px #1C0300;
+}
+/* END OF MAIN SLIDE */
+
+
+/* SLIDE ARROWS */
+
+.minimal-small-cine .slide-arrows a {
+	background: url(images/arrows.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	bottom: 3px;
+}
+
+
+.minimal-small-cine .slide-arrows a.previous {
+	right: 44px;
+}
+
+
+.minimal-small-cine .slide-arrows a.next {
+
+	right: 3px;
+	background-position: -24px 0;
+}
+
+/* SLIDE ARROWS */
+
+
+/* SLIDESHOW CONTROLS */
+
+.minimal-small-cine .slideshow-controls {
+	background: url(images/playpause.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	bottom: 3px;
+	right: 24px;
+}
+
+
+.minimal-small-cine .slideshow-controls.pause {
+	background-position: 0 0;
+}
+
+
+.minimal-small-cine .slideshow-controls.play {
+	background-position: -24px 0;
+}
+
+/* END OF SLIDESHOW CONTROLS */
+
+
+/* TIMER ANIMATION */
+
+.minimal-small-cine .timer-animation {
+	top: 20px;
+	right: 20px;
+}
+
+/* END OF TIMER ANIMATION */
+
+
+/* SLIDE CAPTION */
+
+.minimal-small-cine .caption-container .background {
+	width: 100%;
+	height: 100%;
+}
+
+
+.minimal-small-cine .caption-container .caption {
+	width:90%;
+	color: #FFF;
+	margin: 0;
+	padding: 6px 4px 0px 12px;
+	font-size: .85em;
+	line-height: 1.3;
+}
+
+/* END OF SLIDE CAPTION */
+
+
+/* SLIDE BUTTONS/BULLETS */
+
+/* main container of the navigation buttons */
+.minimal-small-cine .slide-buttons {
+	margin-top: 6px;
+	right: 8px !important;
+	left: auto !important;
+}
+
+
+/* 
+ left, right and middle of the main container 
+ for this skin, these elements are not styled by default
+ feel free to add your own styling
+*/
+.minimal-small-cine .slide-buttons .left, 
+.minimal-small-cine .slide-buttons .right {
+}
+
+
+.minimal-small-cine .slide-buttons .left {
+}
+
+
+.minimal-small-cine .slide-buttons .middle {
+}
+
+
+.minimal-small-cine .slide-buttons .right {
+}
+
+
+/* this contains the buttons */
+.minimal-small-cine .slide-buttons .buttons-inner {
+}
+
+
+/* this is a button */
+.minimal-small-cine .slide-buttons .buttons-inner a {
+	background: url(images/buttons.png) no-repeat;
+	background-position: 0 0;
+	width: 24px;
+	height: 24px;
+	margin: 0 2px;
+}
+
+
+.minimal-small-cine .slide-buttons .buttons-inner a.over {
+	background-position: -24px 0; 
+}
+
+
+.minimal-small-cine .slide-buttons .buttons-inner a.select {
+	background-position: -48px 0; 
+}
+
+
+/* this is used to style the numbers from within the buttons, when they are used */
+.minimal-small-cine .slide-buttons .buttons-inner a .number {
+	margin-top: 3px;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 2px;
+	font-weight: bold;
+	color: #EEE;
+}
+
+
+.ie9.minimal-small-cine .slide-buttons .buttons-inner a .number {
+	margin-top: 5px;
+}
+
+
+.minimal-small-cine .slide-buttons .buttons-inner a.over .number {
+	color: #333;
+}
+
+
+.minimal-small-cine .slide-buttons .buttons-inner a.select .number {
+	color: #333;
+}
+
+
+/* 
+ applied to the thumbnail when the thumbnail is used only as a tooltip
+ sets the distance between the button and the thumbnail
+*/
+.minimal-small-cine .slide-buttons .buttons-inner .thumbnail-wrapper {
+	margin-bottom: 10px;
+}
+
+/* END OF SLIDE BUTTONS/BULLETS */
+
+
+/* THUMBNAIL IMAGE */
+
+.minimal-small-cine .thumbnail {
+	background-color: #000;
+	border: solid 3px #000;
+	-moz-box-shadow: 0 0 10px #333;
+	-webkit-box-shadow: 0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color='#333333')";
+	filter: progid: DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color='#333333');
+}
+
+/* END OF THUMBNAIL IMAGE */
+
+
+/* THUMBNAIL SCROLLER */
+
+.minimal-small-cine .thumbnail-scroller.horizontal {
+	bottom: 0;
+	left: 0;
+	padding: 0 50px;
+	margin-top: 30px;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.horizontal.overlay {
+	bottom: 80px;
+	margin-top: 0;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.vertical {
+	right: 0;
+	top: 0;
+	padding: 50px 0;
+	margin-left: 30px;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.vertical.overlay {
+	right: 80px;
+	margin-left: 0;
+}
+
+
+.minimal-small-cine .thumbnail-scroller .thumbnail-wrapper {
+	margin: 5px;
+	padding: 4px;
+}
+
+
+.minimal-small-cine .thumbnail-scroller .thumbnail.over {
+	border: solid 3px #000;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color='#000000')";
+	filter: progid: DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color='#000000');
+}
+
+
+.minimal-small-cine .thumbnail-scroller .thumbnail.select {
+	border: solid 3px #000;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color='#000000')";
+	filter: progid: DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color='#000000');
+}
+
+
+/* THUMBNAIL CAPTION */
+
+.minimal-small-cine .thumbnail .caption .background {
+	background-color: #000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+
+.minimal-small-cine .thumbnail .caption .content {
+	color: #FFF;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	padding: 2px 0;
+	margin: 0;
+}
+
+/* END OF THUMBNAIL CAPTION */
+
+
+/* THUMBNAIL SCROLLER ARROWS */
+
+.minimal-small-cine .thumbnail-scroller .arrows a {
+	background: url(images/arrows.png) no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.vertical .arrows a {
+	background: url(images/arrows_v.png) no-repeat;
+}
+
+
+.minimal-small-cine .thumbnail-scroller .arrows a.next {
+	background-position: -24px 0;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.horizontal .arrows a.previous {
+	left: 0;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.horizontal .arrows a.next {
+	right: 0;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.vertical .arrows a.previous {
+	top: 0;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.vertical .arrows a.next {
+	bottom: 0;
+}
+
+/* END OF THUMBNAIL SCROLLER ARROWS */
+
+
+/* THUMBNAIL SCROLLER BUTTONS */
+
+.minimal-small-cine .thumbnail-scroller .buttons a {
+	background: url(images/buttons_small.png) no-repeat;
+	background-position: 0 0; 
+	width: 12px;
+	height: 12px;
+	margin: 2px;
+}
+
+
+.minimal-small-cine .thumbnail-scroller .buttons a.over {
+	background-position: -12px 0; 
+}
+
+
+.minimal-small-cine .thumbnail-scroller .buttons a.select {
+	background-position: -24px 0; 
+}
+
+/* END OF THUMBNAIL SCROLLER BUTTONS */
+
+
+/* THUMBNAIL SCROLLER SCROLLBAR */
+
+.minimal-small-cine .thumbnail-scroller.horizontal .scrollbar {
+	margin-top: 30px;
+}
+
+
+.minimal-small-cine .thumbnail-scroller.vertical .scrollbar {
+	margin-left: 30px;
+}
+
+/* END OF THUMBNAIL SCROLLER SCROLLBAR */
+
+/* END OF THUMBNAIL SCROLLER */
+
+
+/* TOOLTIP */
+
+.tooltip {
+	background-color: #DDD;
+	margin-bottom: 20px;
+	border: #EEE solid 4px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+
+.tooltip .content {
+	color: #999;
+	padding: 10px;
+	margin: 0;
+}
+
+/* END OF TOOLTIP */
