@@ -7,12 +7,25 @@
 </head>
 <body>
 <header>
-	<div class="container" id='logo-box'>
-		<!-- <div class="row"> -->
-    		<!-- <div class="col-lg-12"> -->
-				<img src="images/logo-spring17.png" alt="Cornell Cinema Logo" id="logo">
-			<!-- </div> -->
-		<!-- </div> -->
+	<br>
+	<div class="container" id="header">
+		<table>
+			<tr>
+				<td id="logo-box">
+					<img src="images/logo-spring17.png" alt="Cornell Cinema Logo" id="logo">
+				</td>
+				<td id="nav-box">
+					<nav>
+						<ul>
+							<li><a href="index.php">Home</a></li>
+							<li><a href='films.php'>Films</a></li>
+							<li><a href='aboutus.php'>About Us</a></li>
+							<li><a href='search.php'>Search</a></li>
+						</ul>
+					</nav>
+				</td>
+			</tr>
+		</table>
 	</div>
 </header>
 <footer>

@@ -1,7 +1,43 @@
+#header {
+	background-color: #626567;
+	width: 75%;
+	padding: 10px;
+}
+
 #logo-box {
-	text-align: center;
+	text-align: left;
+	width: 40%;
 }
 
 #logo {
 	max-width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+li {
+	float: left;
+	width: 25%;
+}
+
+li a { 
+	display: block;
+	color: #dcdcdc;
+	text-align: center;
+	padding: 9px;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: #ffffff;
 }
