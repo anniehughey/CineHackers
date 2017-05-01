@@ -5,7 +5,7 @@
 	if ( empty( $username ) || empty( $password ) ) {
 	?>
 	<h2>Log in</h2>
-	<form action="login.php" method="post">
+	<form action="adminLogIn.php" method="post">
 		Username: <input type="text" name="username"> <br>
 		Password: <input type="password" name="password"> <br>
 		<input type="submit" value="Submit">
@@ -34,21 +34,21 @@
 
 		$row = $result->fetch_assoc();
 
-		$db_hash_password = $row['hashpassword'];
+		$hashpassword = $row['hashpassword'];
 
 		if( password_verify( $password, $hashpassword ) ) {
 			$db_username = $row['username'];
-			$_SESSION['logged_user_by_sql'] = $db_username;
+			$_SESSION['logged_user'] = $db_username;
 		}
 	} 
 
 	$mysqli->close();
 
-	if ( isset($_SESSION['logged_user_by_sql'] ) ) {
+	if ( isset($_SESSION['logged_user'] ) ) {
 		print("<p>You are now logged in!<p>");
 	} else {
 		echo '<p>You did not login successfully.</p>';
-		echo '<p>Please <a href="login.php">try</a> again.</p>';
+		echo '<p>Please <a href="adminLogIn.php">try</a> again.</p>';
 	}
 
 } 
