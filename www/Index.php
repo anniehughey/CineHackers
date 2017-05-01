@@ -9,10 +9,10 @@
 <meta http-equiv="pragma" content="no-cache">
   
   
-  <link rel="stylesheet" type="text/css" href="styles/CineHome-new.css" />
-   <link rel="stylesheet" type="text/css" href="styles/advanced-slider-base.css" />
-<link rel="stylesheet" type="text/css" href="styles/minimal-small-cine/minimal-small-cine.css" media="screen"/>
-<link rel="stylesheet" type="text/css" href="styles/prettyPhoto.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="../Cornell Cinema/styles/CineHome-new.css" />
+   <link rel="stylesheet" type="text/css" href="../Cornell Cinema/styles/advanced-slider-base.css" />
+<link rel="stylesheet" type="text/css" href="../Cornell Cinema/styles/minimal-small-cine/minimal-small-cine.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../Cornell Cinema/styles/prettyPhoto.css" media="screen" />
  <!-- <link rel="stylesheet" type="text/css" href="styles/presentation.css" media="screen"/>-->
 <!--[if IE 7]><link rel="stylesheet" type="text/css" href="../presentation-assets/presentation-ie7.css" media="screen"/><![endif]-->
 
@@ -24,7 +24,7 @@
     <script type="text/javascript">
 	
     jQuery(document).ready(function($){
-    $("a[rel^='prettyPhoto']").prettyPhoto({
+      $("a[rel^='prettyPhoto']").prettyPhoto({
 		theme:'dark_square',
 		default_width: 600
 		
