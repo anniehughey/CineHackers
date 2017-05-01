@@ -5,7 +5,7 @@
 	if ( empty( $username ) || empty( $password ) ) {
 	?>
 	<h2>Log in</h2>
-	<form action="adminLogIn.php" method="post">
+	<form action="adminLogin.php" method="post">
 		Username: <input type="text" name="username"> <br>
 		Password: <input type="password" name="password"> <br>
 		<input type="submit" value="Submit">
@@ -48,7 +48,7 @@
 		print("<p>You are now logged in!<p>");
 	} else {
 		echo '<p>You did not login successfully.</p>';
-		echo '<p>Please <a href="adminLogIn.php">try</a> again.</p>';
+		echo '<p>Please <a href="adminLogin.php">try</a> again.</p>';
 	}
 
 } 
