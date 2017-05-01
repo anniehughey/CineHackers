@@ -1,5 +1,17 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
+	
+<?php
+	if(strpos($_SERVER['REQUEST_URI'], 'index.php?logout=true') !== false){
+		if (isset($_SESSION['logged_user'])) {
+			$olduser = $_SESSION['logged_user'];
+			unset($_SESSION['logged_user']);
+		} else {
+			$olduser = false;
+		}
+	}
+?>
 
 <head>
 	<meta charset="utf-8">
