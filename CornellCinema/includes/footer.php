@@ -5,7 +5,7 @@
 	<li><a href="getInvolved.php" class="footer_item">GET INVOLVED</a></li>
 	<?php
 		if(!isset($_SESSION['logged_user'])){
-			echo "<li><a href='login.php' class='nav_item'>ADMIN LOG IN</a></li>";
+			echo "<li><a href='adminLogin.php' class='nav_item'>ADMIN LOG IN</a></li>";
 		}else{
 			echo "<li><a href='index.php?logout=true' class='nav_item'>ADMIN LOG OUT</a></li>";
 		}

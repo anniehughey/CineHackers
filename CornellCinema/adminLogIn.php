@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +21,9 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<div class="row admin">
+			<?php include "includes/loginHandler.php" ?>
+		</div><!-- end of admin row div-->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
