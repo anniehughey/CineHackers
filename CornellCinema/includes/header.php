@@ -2,7 +2,7 @@
 	<p>Logo here.</p>
 </div>
 <div id="toggle" class="visible-xs col-xs-6">
-	<button onclick='togglemenu()'><img src="/images/hamburgerIcon.png" alt="menu icon"></button> <!-- this icon was made by Annie Hughey in photoshop--> 
+	<button onclick='togglemenu()'><img src="/images/hamburgerIcon.png" alt="menu icon"></button> <!-- hamburger menu icon was made by Annie Hughey in Photoshop--> 
 </div>
 <div id="mobile" class="col-sm-12">
 	<ul>
@@ -14,7 +14,7 @@
 				<div class="dropdown-content">
 					<a href="schedule.php">SCHEDULE</a>
 					<a href="series.php">SERIES</a>
-					<a href="specialGuests.php">SPECIAL GUESTS</a>
+					<a href="specialGuests.php">SPECIAL EVENTS</a>
 					<a href="allFilms.php">ALL FILMS</a>
 				</div>
 				<!-- end of Films dropdown content-->
