@@ -18,7 +18,12 @@
 <body>
 	<div class="container">
 		<div class="row header">
-			<?php include "includes/header.php" ?>
+			<?php include "includes/header.php"; 
+			if(isset($_SESSION['logged_user'])){
+				echo("<p>You are already logged in. 
+				Click <a href=\"index.php?logout=true\">here</a> to log out.<p>");
+			}
+			?>
 		</div>
 		<!-- end of header row div -->
 		<div class="row admin">
