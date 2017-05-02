@@ -29,6 +29,9 @@
 		<div class="row admin">
 			<?php include "includes/loginHandler.php" ?>
 		</div><!-- end of admin row div-->
+		<div class="row edit">
+			<?php include "includes/edit.php" ?>
+		</div><!-- end of admin row div-->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
