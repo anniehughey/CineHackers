@@ -18,7 +18,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<link rel="stylesheet" href="styles/bootstrap.css">
-		<link rel="icon"       type="image/png" href="http://example.com/myicon.png">
+		<link rel="icon"       type="image/png" href="images/faveIcon.png">
+		<!-- img src: made by Annie Hughey in Illustrator-->
 		<link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
 		<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
 		<link rel="stylesheet" href="styles/style.css">
