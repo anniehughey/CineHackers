@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- this page will feature a google calendar plugin that shows the month by default -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

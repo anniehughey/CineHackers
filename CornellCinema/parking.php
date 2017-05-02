@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- provide images and directions for parking -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

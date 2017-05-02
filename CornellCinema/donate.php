@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- Include more information on the Cornell Cinema, reasons for donating, and a donation form. -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- list the ticket prices and provide a link to the online ticketing website -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

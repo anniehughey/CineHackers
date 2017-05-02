@@ -20,6 +20,8 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- List the locations and provide google maps containers and links to directions for each -->
+		<!-- also provide links to parking -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- insert our story here -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

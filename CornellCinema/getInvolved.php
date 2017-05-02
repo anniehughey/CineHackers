@@ -21,6 +21,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- provide information and contact info for the different ways individuals can get involved. -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

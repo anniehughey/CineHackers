@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- each special guest will have its own container including a photo, the date/time, the movies showing at the talk, the location, and a short description. Clicking on a specific special guest will bring the user to its own page with more info. -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

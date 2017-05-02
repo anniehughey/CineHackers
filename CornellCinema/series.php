@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- displays each series in its own container. Each container will include a photo for the series, the name of the series, the date, movie listings, and a short description. Click on specific series will bring the user to its own page. -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

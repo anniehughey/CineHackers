@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<!-- include contact info in addition to a contact form here -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
