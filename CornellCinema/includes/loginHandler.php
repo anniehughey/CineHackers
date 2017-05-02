@@ -15,7 +15,10 @@
 <?php
 
 } else {
-
+	if( strlen($username) > 16 || !preg_match('/^[a-zA-Z0-9_]+$/',$username)) {
+		echo '<p>Username can only contain alphanumeric characters and underscores
+		and cannot exceed 16 characters.</p>';
+	}
 	require_once 'config.php';
 	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	if( $mysqli->connect_errno ) {
