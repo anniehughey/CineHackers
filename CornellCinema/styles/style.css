@@ -1,23 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-	font-family: 'Lato', sans-serif;
-	!important font-weight: 100;
-	!important
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 100 !important;
 }
 
 
 /* HEADER */
 
 .header {
-	background-color: #626567;
+	background-color: #f32d2d;
 	margin-bottom: 10px;
+}
+
+.logo {
+	margin: 0 auto;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+.logoIcon {
+	margin-right: 10px;
+	max-width: 60vw;
+	padding: 15px;
 }
 
 #mobile {
 	display: none;
+	overflow: hidden;
+	text-align: center;
+}
+
+#desktop {
+	text-align: center;
 }
 
 ul {
+	margin: 0 auto;
+	text-align: center;
 	list-style-type: none;
 	display: inline-block;
 	font-size: 1.3em;
@@ -27,12 +46,13 @@ ul {
 }
 
 li {
-	float: left;
+	display: inline-block;
 }
 
 li a {
-	display: block;
-	color: #dcdcdc;
+	display: inline-block;
+	color: white;
+	font-weight: 100;
 	text-align: center;
 	padding: 9px;
 	text-decoration: none;
@@ -43,15 +63,24 @@ li a:hover {
 	color: #ffffff;
 }
 
+.search form {
+	display: inline-block;
+}
+
 
 /* Dropdown Button */
 
 .dropbtn {
-	background-color: #626567;
+	background-color: #f32d2d;
 	color: #dcdcdc;
 	padding: 16px;
 	border: none;
 	cursor: pointer;
+}
+
+.dropbtn :hover {
+	background-color: #202020;
+	color: #f1f1f1;
 }
 
 
@@ -88,8 +117,8 @@ li a:hover {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-	background-color: #f1f1f1;
-	color: #E6B0AA;
+	background-color: #202020;
+	color: #ffffff;
 }
 
 
@@ -103,12 +132,17 @@ li a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-	background-color: #E6B0AA;
-	color: black;
+	background-color: #202020;
+	color: #f1f1f1;
 }
 
 
 /* CAROUSEL */
+
+span {
+	width: 100%vw;
+	color: #f32d2d;
+}
 
 
 /* INDEX THUMBNAILS */
@@ -143,7 +177,7 @@ li a:hover {
 /* FOOTER */
 
 .footer {
-	background-color: #626567;
+	background-color: #f32d2d;
 	margin: 0 auto;
 	text-align: center;
 }

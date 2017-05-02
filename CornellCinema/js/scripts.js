@@ -11,6 +11,7 @@ $(document).ready(function () {
 		navigation: false,
 		effect: 'straight',
 		HoverPause: false,
-		links: false
+		links: false,
+		opacity: 1
 	});
 });

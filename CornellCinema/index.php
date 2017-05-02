@@ -25,9 +25,9 @@
 		<link rel="stylesheet" href="styles/coin-slider-styles.css" type="text/css" />
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="js/scripts.js"></script>
-		<script src="js/jquery.slides.min.js"></script>
 		<script type="text/javascript" src="js/coin-slider.min.js"></script>
+		<!-- jquery plug in from coin slider-->
+		<script src="js/scripts.js"></script>
 
 		<title>Cornell Cinema</title>
 	</head>
