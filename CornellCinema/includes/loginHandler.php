@@ -1,4 +1,4 @@
-<h1>Log In Form for Cornell Cinema</h1>
+<h1>Login Form for Cornell Cinema</h1>
 
 <?php 
 	$username = filter_input( INPUT_POST, 'username', FILTER_SANITIZE_STRING );
