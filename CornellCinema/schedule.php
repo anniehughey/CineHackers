@@ -20,7 +20,11 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
-		<!-- this page will feature a google calendar plugin that shows the month by default -->
+		<iframe src="https://www.google.com/calendar/embed?title=Cornell%20Cinema
+			     &amp;src=cornellcinemacalendar%40gmail.com&amp;height=600
+			     &amp;wkst=1&amp;bgcolor=%23FFFFFF
+			     &amp;ctz=America%2FNew_York" style=" border-width:0 "
+			width="900" height="800" frameborder="0" scrolling="no"></iframe>
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
