@@ -12,6 +12,6 @@ $(document).ready(function () {
 		effect: 'straight',
 		HoverPause: false,
 		links: false,
-		opacity: 1
+		opacity: 0.8
 	});
 });
