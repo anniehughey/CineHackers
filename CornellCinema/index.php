@@ -18,7 +18,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<link rel="stylesheet" href="styles/bootstrap.css">
-		<link rel="icon"       type="image/png" href="images/faveIcon.png">
+		<link rel="icon" href="images/faveIcon.png" type="image/png">
 		<!-- img src: made by Annie Hughey in Illustrator-->
 		<link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
 		<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
@@ -42,24 +42,24 @@
 			<div class="row row-centered">
 				<div class="col-sm-12 col-lg-12 col-centered" id='coin-slider'>
 					<a href="img01_url" target="_blank">
-						<img id="img1" src="images/theaterLogo.png" alt="Cornell Cinema" target="_blank">
+						<img id="img1" src="images/theaterLogo.png" alt="Cornell Cinema">
 						<!-- img src: -->
-						<span>WELCOME TO CORNELL CINEMA!</span>
+						<span class="caption">WELCOME TO CORNELL CINEMA!</span>
 					</a>
 					<a href="img02_url" target="_blank">
 						<!-- img src: -->
-						<img id="img2" src="images/psycho.png" alt="Psycho" target="_blank">
+						<img id="img2" src="images/psycho.png" alt="Psycho">
 						<!-- img src: -->
 						<span>ALFRED HITCHCOCK'S PSYCHO</span>
 					</a>
 					<a href="img03_url" target="_blank">
-						<img id="img1" src="images/theaterLogo.png" alt="Cornell Cinema">
+						<img id="img3" src="images/theaterLogo.png" alt="Cornell Cinema">
 						<!-- img src: -->
 						<span>WELCOME TO CORNELL CINEMA!</span>
 					</a>
 					<a href="img04_url" target="_blank">
 						<!-- img src: -->
-						<img id="img2" src="images/psycho.png" alt="Psycho" target="_blank">
+						<img id="img4" src="images/psycho.png" alt="Psycho">
 						<!-- img src: -->
 						<span>ALFRED HITCHCOCK'S PSYCHO</span>
 					</a>

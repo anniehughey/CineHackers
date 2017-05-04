@@ -51,7 +51,7 @@ li {
 
 li a {
 	display: inline-block;
-	color: white;
+	color: #dcdcdc;
 	font-weight: 100;
 	text-align: center;
 	padding: 9px;
@@ -140,8 +140,12 @@ li a:hover {
 /* CAROUSEL */
 
 span {
-	width: 100%vw;
+	width: 100vw;
 	color: #f32d2d;
+}
+
+.caption {
+	color: white;
 }
 
 
