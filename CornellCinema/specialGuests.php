@@ -20,7 +20,13 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
-		<!-- each special guest will have its own container including a photo, the date/time, the movies showing at the talk, the location, and a short description. Clicking on a specific special guest will bring the user to its own page with more info. -->
+		<div class="content">
+			<h1 class="title">SPECIAL GUESTS</h1>
+			<p class="text">Cornell Cinema began in 1970 as a university film society, but has evolved into a media arts center with a national reputation. Cornell Cinema's primary purpose is to expose Ithaca and regional audiences to alternative forms of cinema (such as documentary, classic, and experimental films) as well as alternative voices not usually heard through the mass media. Its secondary purpose is to provide affordable, second-run commercial entertainment for the Cornell community. In fulfillment of its educational goals, Cornell Cinema encourages audiences to reflect critically on commercial and other media by supplementing its over 300 annual screenings with occasional faculty introductions, guest filmmakers, panel discussions, and more.</p>
+
+
+		</div>
+		<!-- end of content div -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
