@@ -20,8 +20,12 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
-		<!-- Include information about onscreen advertising, including its benefits and pricing -->
-		<!-- Also include contact info for this -->
+		<div class="content">
+			<h1 class="title"></h1>
+			<!-- Include information about onscreen advertising, including its benefits and pricing -->
+			<!-- Also include contact info for this -->
+		</div>
+		<!-- end of content div -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
