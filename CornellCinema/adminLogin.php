@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<link rel="stylesheet" href="styles/loginstyle.css" />
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/bootstrap.css">
 	<link rel="icon"       type="image/png"       href="http://example.com/myicon.png">

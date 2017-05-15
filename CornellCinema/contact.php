@@ -21,6 +21,7 @@
 		</div>
 		<!-- end of header row div -->
 		<!-- include contact info in addition to a contact form here -->
+		<?php include "includes/contactHandler.php" ?>
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
