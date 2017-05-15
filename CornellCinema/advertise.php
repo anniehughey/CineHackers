@@ -21,9 +21,12 @@
 		</div>
 		<!-- end of header row div -->
 		<div class="content">
-			<h1 class="title"></h1>
+			<h1 class="title">ADVERTISE</h1>
 			<!-- Include information about onscreen advertising, including its benefits and pricing -->
 			<!-- Also include contact info for this -->
+			<p class="text">
+				You should advertise with us because...
+			</p>
 		</div>
 		<!-- end of content div -->
 		<div class="row footer">
