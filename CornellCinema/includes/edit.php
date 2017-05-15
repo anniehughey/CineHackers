@@ -6,7 +6,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	if(isset($_SESSION['logged_user'])){
 		if (!isset($_POST['submitEdits'])) {
 			?>
-			<form action="adminLogin.php" method="post">
+			<form action="adminLogin.php" method="POST" enctype="multipart/form-data">
 				<!-- Insert input to choose editable object, ie movies-->
 				Select Movie to Edit: <select name = "selectMovieTitle">
 				<?php
@@ -18,34 +18,34 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 				?>
 				</select>
 				<!-- Insert input to choose specific editable feature, ie description-->
-				<?php
+				
 
 						
-							echo("<br /><br />");
-							echo('Edit Title: <input type = "text" name = "editMovieTitle">');
-							echo("<br /><br />");
-							echo('Edit Runtime: <input type = "text" name = "editRuntime" >');
-							echo("<br /><br />");
-							echo('Edit Release Year/Country: <input type = "text" name = "editRYCountry">');
-							echo("<br /><br />");
-							echo('Edit Director: <input type = "text" name = "editDirector">');
-							echo("<br /><br />");
-							echo('Edit Cast: <input type = "text" name = "editCast">');
-							echo("<br /><br />");
-							echo('Edit Website: <input type = "text" name = "editWebsite">');
-							echo("<br /><br />");
-							echo('Edit Description: <textarea name = "editDescription" rows = "4" cols = "50"></textarea>');
-							echo("<br /><br />");
-							echo('Edit Image: <input type = "text" name = "editImage">');
-							echo("<br /><br />");
-							echo('Edit Trailer: <input type = "text" name = "editTrailer">');
-							echo("<br /><br />");
-							echo('Edit Subtitles: <input type = "text" name = "editSubtitles">');
-							echo("<br /><br />");
+							<br /><br />
+							Edit Title: <input type = "text" name = "editMovieTitle">
+							<br /><br />
+							Edit Runtime: <input type = "text" name = "editRuntime" >
+							<br /><br />
+							Edit Release Year/Country: <input type = "text" name = "editRYCountry">
+							<br /><br />
+							Edit Director: <input type = "text" name = "editDirector">
+							<br /><br />
+							Edit Cast: <input type = "text" name = "editCast">
+							<br /><br />
+							Edit Website: <input type = "text" name = "editWebsite">
+							<br /><br />
+							Edit Description: <textarea name = "editDescription" rows = "4" cols = "50"></textarea>
+							<br /><br />
+							Edit Image: <input type="file" name="editImage" /> 
+							<br /><br />
+							Edit Trailer: <input type = "text" name = "editTrailer">
+							<br /><br />
+							Edit Subtitles: <input type = "text" name = "editSubtitles">
+							<br /><br />
 						
 					
 
-				?>
+		
 				<!-- Insert text input for edits -->
 				<input type="submit" name = "submitEdits" value="Edit">
 			</form>
@@ -146,9 +146,48 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 				//}
 			}
 
+			if(isset($_FILES['editImage'])){
+				$errors = array();
+				$file_name = $_FILES['editImage']['name'];
+			    $file_size =$_FILES['editImage']['size'];
+			    $file_tmp =$_FILES['editImage']['tmp_name'];
+			    $file_type=$_FILES['editImage']['type'];
+			    $file_ext=strtolower(end(explode('.',$_FILES['editImage']['name'])));
 
+			    $expensions= array("jpeg","jpg","png");
+      
+		      if(in_array($file_ext,$expensions)=== false){
+		         $errors[]="extension not allowed, please choose a JPEG or PNG file.";
+		      }
+		      
+		      if($file_size > 2097152){
+		         $errors[]='File size cannot exceed 2 MB';
+		      }
+		      
+		      if(empty($errors)==true){
+		         move_uploaded_file($file_tmp,"dbImages/".$file_name);
+		         	$sql = "UPDATE Movies
+					SET Image = 'dbImages/".$file_name."'
+					WHERE movieID = ".$currentMovie['movieID'];
+					$result = $mysqli -> query($sql);
+		         echo ("Image successfully uploaded.<br>");
+		      }else{
+		         print_r($errors);
+		      }
 
+			}
 
+			if(!empty($_POST['editTrailer'])){
+				if (!filter_var($_POST['editTrailer'], FILTER_VALIDATE_URL) === false) {
+				    $sql = "UPDATE Movies
+					SET Trailer = '".$_POST['editTrailer']."'
+					WHERE movieID = ".$currentMovie['movieID'];
+					$result = $mysqli -> query($sql);
+					echo("Trailer successfully edited.<br>");
+				} else {
+					echo("Trailer input is not a valid URL.");
+				}
+			}
 
 			echo("<p> 
 				Click <a href=\"adminLogin.php\">here</a> to make another edit.<p>");
