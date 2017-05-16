@@ -20,13 +20,20 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
-		<div class="content">
+		<div class="row content">
 			<h1 class="title">ADVERTISE</h1>
 			<!-- Include information about onscreen advertising, including its benefits and pricing -->
 			<!-- Also include contact info for this -->
 			<p class="text">
 				You should advertise with us because...
 			</p>
+			<a href="contact.php">
+				<div class="donate">
+					<h1 class="donateButton">ADVERTISE NOW</h1>
+				</div>
+			</a>
+			<!-- end of donate div-->
+
 		</div>
 		<!-- end of content div -->
 		<div class="row footer">
