@@ -1,16 +1,15 @@
 <h1>Login Form for Cornell Cinema</h1>
-
 <?php 
 	$username = filter_input( INPUT_POST, 'username', FILTER_SANITIZE_STRING );
 	$password = filter_input( INPUT_POST, 'password', FILTER_SANITIZE_STRING );
 	if ( empty( $_POST['username'] ) || empty( $_POST['password'] ) ) {
 	?>
 	<h2>Log in</h2>
-	<form action="adminLogin.php" method="post">
-		Username: <input type="text" name="username"> <br>
-		Password: <input type="password" name="password"> <br>
-		<input type="submit" value="Submit">
-	</form>
+		<form action="adminLogin.php" method="post" class = "loginForm">
+			Username: <input type="text" name="username" placeholder="Username"> <br>
+			Password: <input type="password" name="password" placeholder = "Password"> <br>
+			<input type="submit" value="Submit">
+		</form>
 
 <?php
 
@@ -20,7 +19,7 @@
 		and cannot exceed 16 characters.</p>';
 	}
 	require_once 'config.php';
-	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT); 
 	if( $mysqli->connect_errno ) {
 		echo "<p>$mysqli->connect_error<p>";
 		die( "Couldn't connect to database");

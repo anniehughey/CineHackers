@@ -282,4 +282,16 @@ span {
     background: #2EBC99;
 }
 
+/**ADMIN LOGIN FORM */
+.loginForm {
+height:200px;
+width:225px;
+margin:auto;
+border:1px #CCC solid;
+padding:10px;
+}
 
+.loginForm input {
+padding:5px;
+margin:5px;
+}
