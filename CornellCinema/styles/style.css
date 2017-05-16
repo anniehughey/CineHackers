@@ -1,16 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
 	font-family: 'Lato', sans-serif !important;
-	font-weight: 200 !important;
-	background-color: #101010;
-	!important;
-}
-
-.container {
-	background-color: #101010;
-	!important;
-	color: white;
-	!important;
+	font-weight: 300 !important;
 }
 
 
@@ -23,7 +14,7 @@ body {
 
 .logo {
 	margin: 0 auto;
-	background-color: #101010;
+	background-color: whitesmoke;
 	text-align: center;
 }
 
@@ -167,8 +158,8 @@ span {
 }
 
 .map {
-	color: white;
 	padding: 5px;
+	background-color: gainsboro;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -178,16 +169,16 @@ span {
 }
 
 .prices {
-	color: white;
 	padding: 5px;
+	background-color: gainsboro;
 	text-align: center;
 	margin-bottom: 10px;
 	height: 100%;
 }
 
 .media {
-	color: white;
 	padding: 5px;
+	background-color: gainsboro;
 	text-align: center;
 	margin-bottom: 10px;
 	height: 100%;
@@ -459,47 +450,43 @@ a {
 	width: 100%;
 }
 
-
 /** PRICES TABLE */
 
 .pricesTable {
-	font-family: arial, sans-serif;
-	border-collapse: collapse;
-	width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.pricesTable td,
-th {
-	border: 1px solid #dddddd;
-	text-align: left;
-	padding: 4px;
+.pricesTable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
 }
 
 .pricesTable tr:nth-child(even) {
-	background-color: #dddddd;
+    background-color: #dddddd;
 }
 
-
 /** Admin Edit Form */
-
 .editForm {
-	background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-	background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-	margin: auto;
-	position: relative;
-	width: 550px;
-	height: auto;
-	line-height: 24px;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 10px;
-	padding: 10px;
-	border: 1px solid #999;
-	border: inset 1px solid #333;
-	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: auto;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .specialguestphoto {
