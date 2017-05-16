@@ -12,7 +12,14 @@
 			echo("<img src = " . $row['Image'] . ">");
 			echo("<div class = 'filmDescription'>");
 				echo("<div class = 'filmHeading'>");
-					echo("<h1>".$row['Title']."</h1><h3>".$row['ReleaseYearCountry']."</h3>");
+					echo("<h2>".$row['Title']."   <font size=\"-2\">".$row['ReleaseYearCountry']."</font></h2>");
+					$showtimes = "SELECT * FROM MovieInfo WHERE movieID = ".$row['movieID'];
+					$showtimesResults = $mysqli -> query($showtimes);
+					echo("<div class = 'showtimes'>");
+						while($row2 = $showtimesResults -> fetch_assoc()){
+							echo("<li>".str_replace("-", "/", $row2['Date']).", ".$row2['Time']." PM</li>");
+						}
+					echo("</div>");
 				echo("</div>");
 				echo("<h5><b>Director:</b> ".$row['Director']."</h5>");
 				echo("<h5><b>Cast:</b> ".$row['Cast']."</h5>");

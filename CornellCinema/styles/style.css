@@ -439,6 +439,10 @@ a {
 	align-items: stretch;
 }
 
+.showtimes li {
+	border-left: solid 2px red;
+}
+
 
 /* OUR STORY */
 
