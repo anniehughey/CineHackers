@@ -6,6 +6,13 @@ body {
 	!important;
 }
 
+.container {
+	background-color: #101010;
+	!important;
+	color: white;
+	!important;
+}
+
 
 /* HEADER */
 
