@@ -66,7 +66,13 @@
 				echo("</div>");
 				echo("<h5><b>Director:</b> ".$row['Director']."</h5>");
 				echo("<h5><b>Cast:</b> ".$row['Cast']."</h5>");
-				echo("<p><b>Description:</b> ".$row['Description']."</p>");
+				$specialQuery = "SELECT * FROM specialEvents WHERE movieID = ".$row['movieID'];
+				$specialResult = $mysqli -> query($specialQuery);
+				$specialDesc = "";
+				if($specialRow = $specialResult -> fetch_assoc()){
+					$specialDesc = $specialRow['Description'];
+				}
+				echo("<p><b>Description:</b> ".$specialDesc.". ".$row['Description']."</p>");
 				echo("<h5><b>Runtime:</b> ".$row['Runtime']." min</h5>");
 				echo("<h5><b>Format:</b> ".$row['Format']."</h5>");
 				echo("<h5><b>Subtitles:</b> ");
