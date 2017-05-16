@@ -108,15 +108,6 @@
 							<td>$5.00 / $4.00 12 and Under</td>
 						</tr>
 					</table>
-					<!--<ul>
-						<li>Cornell Students: $5.50</li>
-						<li>Grad Students: $6</li>
-						<li>General Public: $8.50</li>
-						<li>Senior Citizens (62+): $6.50</li>
-						<li>Kids 12 &amp; Under: $5.50</li>
-						<li>Saturday and Sunday Matinees: $5.50 all</li>
-						<li>Ithakid Film Fest Tickets: $5.00 /$4.00 Kids 12 and Under</li>
-					</ul>-->
 
 				</div>
 				<!-- end of thumbnail 2 div -->
