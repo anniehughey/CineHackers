@@ -11,7 +11,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
-	
+
 	<title>Get Involved</title>
 </head>
 
@@ -22,6 +22,22 @@
 		</div>
 		<!-- end of header row div -->
 		<!-- provide information and contact info for the different ways individuals can get involved. -->
+		<div class="row content">
+			<h1 class="title">GET INVOLVED</h1>
+			<!-- Include information about onscreen advertising, including its benefits and pricing -->
+			<!-- Also include contact info for this -->
+			<p class="text">
+				...
+			</p>
+			<a href="contact.php">
+				<div class="donate">
+					<h1 class="donateButton">WE'D LIKE TO HEAR FROM YOU</h1>
+				</div>
+			</a>
+			<!-- end of donate div-->
+
+		</div>
+		<!-- end of content div -->
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>

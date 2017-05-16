@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
 	font-family: 'Lato', sans-serif !important;
-	font-weight: 100 !important;
+	font-weight: 300 !important;
 }
 
 
@@ -201,23 +201,72 @@ span {
 	max-width: 900px;
 }
 
+
+/* PAGE CONTENT */
+
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title {
+	color: gray;
+	text-align: center;
+	margin: 10px;
+}
+
+.text {
+	text-align: center;
+}
+
+.donate {
+	max-width: 960px;
+	border: 2px;
+	border-color: #f32d2d;
+}
+
+a:hover {
+	text-decoration-line: none;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+.donateButton {
+	text-decoration: none;
+	text-align: center;
+	margin: 15px;
+	color: #f32d2d;
+}
+
+.donateButton:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 0.2;
+	background-color: #f32d2d;
+}
+
+
 /**CONTACT FORM */
-.contact-style{
-    font: 95% Arial, Helvetica, sans-serif;
-    max-width: 400px;
-    margin: 10px auto;
-    padding: 16px;
-    background: #F7F7F7;
+
+.contact-style {
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
 }
 
 .contact-style h1 {
 	background: #43D1AF;
-    padding: 20px 0;
-    font-size: 140%;
-    font-weight: 300;
-    text-align: center;
-    color: #fff;
-    margin: -16px -16px 16px -16px;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
 }
 
 .contact-style input[type="text"],
@@ -229,24 +278,24 @@ span {
 .contact-style input[type="time"],
 .contact-style input[type="url"],
 .contact-style textarea,
-.contact-style select 
-{
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    outline: none;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    background: #fff;
-    margin-bottom: 4%;
-    border: 1px solid #ccc;
-    padding: 3%;
-    color: #555;
-    font: 95% Arial, Helvetica, sans-serif;
+.contact-style select {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
 }
+
 .contact-style input[type="text"]:focus,
 .contact-style input[type="date"]:focus,
 .contact-style input[type="datetime"]:focus,
@@ -256,42 +305,62 @@ span {
 .contact-style input[type="time"]:focus,
 .contact-style input[type="url"]:focus,
 .contact-style textarea:focus,
-.contact-style select:focus
-{
-    box-shadow: 0 0 5px #43D1AF;
-    padding: 3%;
-    border: 1px solid #43D1AF;
+.contact-style select:focus {
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
 }
 
 .contact-style input[type="submit"],
-.contact-style input[type="button"]{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    padding: 3%;
-    background: #43D1AF;
-    border-bottom: 2px solid #30C29E;
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;    
-    color: #fff;
-}
-.contact-style input[type="submit"]:hover,
-.contact-style input[type="button"]:hover{
-    background: #2EBC99;
+.contact-style input[type="button"] {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	color: #fff;
 }
 
+.contact-style input[type="submit"]:hover,
+.contact-style input[type="button"]:hover {
+	background: #2EBC99;
+}
+
+
 /**ADMIN LOGIN FORM */
+
 .loginForm {
-height:200px;
-width:225px;
-margin:auto;
-border:1px #CCC solid;
-padding:10px;
+	height: 200px;
+	width: 225px;
+	margin: auto;
+	border: 1px #CCC solid;
+	padding: 10px;
 }
 
 .loginForm input {
-padding:5px;
-margin:5px;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+/* MOBILE */
+
+#mobile {
+	max-width: 50px;
+}
+
+
+/* LOCATIONS */
+
+#WSH {
+	width: 60vw;
+}
+
+#sage {
+	width: 60vw;
 }
