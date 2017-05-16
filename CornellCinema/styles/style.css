@@ -364,3 +364,51 @@ a {
 #sage {
 	width: 60vw;
 }
+
+/**Film Containers */
+
+.filmContainer {
+   	display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ .filmEntry {
+ 	display: grid;
+    grid-template-columns: auto 40%;
+    grid-template-rows: 400px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: rgba(255,255,255,0.7);
+    border: 2px;
+    border-radius: 15px;
+    overflow: auto;
+ }
+
+ .filmDescription {
+ 	display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 10% 10% 40% 10% 10% 10%;
+    justify-items: stretch;
+ }
+
+ .filmDescription p {
+ 	 overflow-x: scroll;
+ }
+
+ .filmHeading {
+ 	display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 4px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
