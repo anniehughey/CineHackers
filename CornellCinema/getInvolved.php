@@ -22,12 +22,11 @@
 	</div>
 	<div class="container">
 		<!-- end of header row div -->
-		<!-- provide information and contact info for the different ways individuals can get involved. -->
-		<div class="row">
-			<h1 class="title">HOW TO GET INVOLVED</h1>
+		<h1 class="title">HOW TO GET INVOLVED</h1><!-- 
+		<div class="row content"> -->
 			<!-- Include information about onscreen advertising, including its benefits and pricing -->
 			<!-- Also include contact info for this -->
-			<div class="row">
+			<div class="row content">
 				<div class="col-sm-12 col-lg-6">
 					<h3>Employment</h3>
 					<p class="text">Cornell Cinema hires Box and Concessions Officers, House Managers, Projectionists, Office Assistants, Shippers and more! Paid positions can be held by Cornell University students, and most require Work-Study or some other wage subsidy scholarship (Cornell Tradition or OMEA, for instance). Paid employees receive a Comp Pass for two to all regular screenings. Anyone interested in working for the Cinema is encouraged to <a href="http://cinema.cornell.edu/jobs/cinema_application.pdf">Fill Out An Application</a> whether or not there are specific positions available. Applications are kept on file for the academic year.</p>
@@ -44,7 +43,7 @@
 				</div>
 			</a>
 			<!-- end of apply div-->
-			<div class="row">
+			<div class="row content">
 				<div class="col-sm-12 col-lg-6">
 					<h3>Student Advisory Board</h3>
 					<p class="text">The Cornell Cinema Student Advisory Board is an organization of students, both undergraduate and graduate, whose purpose is to represent and promote Cornell Cinema, as well as to advise and assist Cornell Cinema in its overall mission to offer the Cornell and greater Ithaca community a wide variety of cinematic and media experiences, for both educational and entertainment purposes. Specific committees work on promotion, event planning and execution, and programming. The first meeting of the SAB (Fall 2016) takes place on Wednesday, September 13 at 5pm in Willard Straight Theatre. All students are welcome to attend and learn more! (The board typically meets on the first Tuesday of the month at 5pm, thereafter.).</p>
@@ -62,9 +61,8 @@
 			</a>
 			<!-- end of SUGGESTION div-->
 
-		</div>
+		<!-- </div> -->
 		<!-- end of content div -->
-		<!-- end of footer row div -->
 	</div>
 	<div class="row footer">
 		<?php include "includes/footer.php" ?>
