@@ -1,3 +1,7 @@
+<div class="col-xs-12 col-lg-12 logo">
+	<img src="images/cinemaLogo.png" alt="Cornell Cinema" class=logoIcon>
+	<!-- img src: Cornell Cinema-->
+</div>
 <div id="toggle" class="visible-xs col-xs-6">
 	<button onclick='togglemenu()'><img src="/images/hamburgerIcon.png" alt="menu icon" id="hamburger"></button>
 	<!-- hamburger menu icon was made by Annie Hughey in Photoshop-->
