@@ -42,6 +42,17 @@ $mysqli->set_charset("utf8");
 							Subtitles?: <br><input type = "radio" name = "editSubtitles" value = "0">No<br>
 										<input type = "radio" name = "editSubtitles" value = "1">Yes<br>
 							<br /><br />
+							Series: <select name = "selectSeries">
+									<option value = "0">Not in Series</option>
+									<?php
+										$seriestitle = "SELECT * FROM Series";
+										$seriesResult = $mysqli -> query($seriestitle);
+										while($row = $seriesResult -> fetch_assoc()) {
+											echo("<option value = ".$row["seriesID"].">" . $row["Title"] . "</option>");
+										}
+									?>
+							</select>
+							<br /><br />
 							Edit Description: <br><textarea name = "editDescription" rows = "4" cols = "50"></textarea>
 							<br /><br />
 						
@@ -187,6 +198,14 @@ $mysqli->set_charset("utf8");
 					WHERE movieID = ".$currentMovie['movieID'];
 					$result = $mysqli -> query($sql);
 					echo("Subtitles successfully edited.<br>");
+			}
+
+			if($_POST['selectSeries'] > 0){
+				$sql = "UPDATE Movies
+					SET seriesID = '".$_POST['selectSeries']."'
+					WHERE movieID = ".$currentMovie['movieID'];
+					$result = $mysqli -> query($sql);
+					echo("Series successfully edited.<br>");
 			}
 
 			echo("<p> Click <a href=\"adminLogin.php\">here</a> to make another edit.<p>");
