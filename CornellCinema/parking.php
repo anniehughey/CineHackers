@@ -16,10 +16,10 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
 		<div class="row content">
 			<h1 class="title">PARKING</h1>
@@ -39,10 +39,9 @@
 		</div>
 		<!-- end of content div -->
 		<!-- provide images and directions for parking -->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

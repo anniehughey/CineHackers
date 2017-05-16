@@ -16,10 +16,10 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
 		<!-- Include more information on the Cornell Cinema, reasons for donating, and a donation form. -->
 		<div class="content">
@@ -59,10 +59,9 @@
 
 		</div>
 		<!-- end of content div -->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

@@ -16,12 +16,12 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
-		<div class="row content">
+		<div class="content">
 			<h1 class="title">Why Advertise at Cornell Cinema?</h1>
 			<p class="text">
 				During the academic year, Cornell Cinema typically presents 5 different films per week, ranging from classic, to foreign, to documentary, to arthouse. These are screened in repertory style five nights a week, Wednesday through Sunday—two shows on Thursday, Friday, Saturday, and Sunday—in the historic Willard Straight Theatre on Cornell University’s campus, for a total of 9 screenings per week. The variety of films shown attracts a wide demographic of undergraduate and graduate students, Cornell faculty and staff, and community members. Average attendance per screening is 60. This kind of exposure offers advertisers a unique opportunity.
@@ -53,10 +53,9 @@
 
 		</div>
 		<!-- end of content div -->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

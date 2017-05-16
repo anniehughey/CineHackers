@@ -16,10 +16,10 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
 		<!-- List the locations and provide google maps containers and links to directions for each -->
 		<!-- also provide links to parking -->
@@ -53,10 +53,9 @@
 			<!-- end of WSH div-->
 		</div>
 		<!-- end of content div -->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

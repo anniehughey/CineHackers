@@ -17,13 +17,13 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
 		<!-- provide information and contact info for the different ways individuals can get involved. -->
-		<div class="row content">
+		<div class="row">
 			<h1 class="title">HOW TO GET INVOLVED</h1>
 			<!-- Include information about onscreen advertising, including its benefits and pricing -->
 			<!-- Also include contact info for this -->
@@ -64,10 +64,10 @@
 
 		</div>
 		<!-- end of content div -->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
 		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

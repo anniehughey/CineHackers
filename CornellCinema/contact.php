@@ -16,17 +16,16 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
 		<!-- include contact info in addition to a contact form here -->
 		<?php include "includes/contactHandler.php" ?>
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

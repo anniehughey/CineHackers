@@ -17,6 +17,9 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
 		<div class="row header">
 			<?php include "includes/header.php"; 
@@ -33,10 +36,9 @@
 		<div class="row edit">
 			<?php include "includes/edit.php" ?>
 		</div><!-- end of admin row div-->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>

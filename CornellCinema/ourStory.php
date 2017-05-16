@@ -16,10 +16,10 @@
 </head>
 
 <body>
+	<div class="row header">
+		<?php include "includes/header.php" ?>
+	</div>
 	<div class="container">
-		<div class="row header">
-			<?php include "includes/header.php" ?>
-		</div>
 		<!-- end of header row div -->
 		<div class="content">
 			<h1>“I didn't need to go to film school. Cornell Cinema was my film school.” —Doug Block ’75, Sundance, Emmy and Peabody-award winning filmmaker</h1>
@@ -40,10 +40,9 @@
 
 		</div>
 		<!-- end of content div -->
-		<div class="row footer">
-			<?php include "includes/footer.php" ?>
-		</div>
-		<!-- end of footer row div -->
+	</div>
+	<div class="row footer">
+		<?php include "includes/footer.php" ?>
 	</div>
 	<!-- end of container div -->
 </body>
