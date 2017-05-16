@@ -17,6 +17,7 @@
 					<a href="schedule.php">SCHEDULE</a>
 					<a href="specialGuests.php">SPECIAL EVENTS</a>
 					<a href="prices.php">PRICES</a>
+					<a href="allFilms.php">ALL FILMS</a>
 				</div>
 				<!-- end of Films dropdown content-->
 
