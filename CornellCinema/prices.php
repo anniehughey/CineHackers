@@ -21,6 +21,27 @@
 		</div>
 		<!-- end of header row div -->
 		<!-- list the ticket prices and provide a link to the online ticketing website -->
+
+		<div class="row thumbnails">
+			<div class="col-sm-12 col-lg-4 map">
+				<h1>GOOGLE MAPS PLUG IN</h1>
+
+			</div>
+			<!-- end of thumbnail 1 div -->
+			<div class="col-sm-12 col-lg-4 prices">
+				<h1>PRICE AND TICKET INFO HERE</h1>
+
+			</div>
+			<!-- end of thumbnail 2 div -->
+			<div class="col-sm-12 col-lg-4 media">
+				<h1>SOCIAL MEDIA PLUG INS</h1>
+
+			</div>
+			<!-- end of thumbnail 3 div -->
+
+		</div>
+		<!-- end of thumbnail row div -->
+
 		<div class="row footer">
 			<?php include "includes/footer.php" ?>
 		</div>
