@@ -6,7 +6,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	if(isset($_SESSION['logged_user'])){
 		if (!isset($_POST['submitEdits'])) {
 			?>
-			<form action="adminLogin.php" method="POST" enctype="multipart/form-data">
+			<form action="adminLogin.php" method="POST" enctype="multipart/form-data" class = "editForm">
 				<!-- Insert input to choose editable object, ie movies-->
 				Select Movie to Edit: <select name = "selectMovieTitle">
 				<?php
@@ -40,7 +40,8 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 							<br /><br />
 							Edit Trailer: <input type = "text" name = "editTrailer">
 							<br /><br />
-							Edit Subtitles: <input type = "text" name = "editSubtitles">
+							Subtitles?: <br><input type = "radio" name = "editSubtitles" value = "0">No<br>
+										<input type = "radio" name = "editSubtitles" value = "1">Yes<br>
 							<br /><br />
 						
 					
@@ -51,22 +52,17 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 			</form>
 			<?php
 		} 
-		if(isset($_POST['submitEdits'])){
+		if(isset($_POST['submitEdits'])) {
 			$query = "SELECT * FROM Movies WHERE movieID = " . $_POST['selectMovieTitle'];
 			$result2 = $mysqli -> query($query);
 			$currentMovie = $result2 -> fetch_array(MYSQLI_ASSOC);
 			// insert code to process editing. this will be similar to project 3
 			if(!empty($_POST['editMovieTitle'])){
-				/**if(!preg_match('/^[a-z0-9_\s]+$/i', $_POST['editalbumtitle'])){
-					echo("Album title may only contain letters, numbers, spaces, and underscores.");
-				}else{*/
-				//Update movie title.
 				$sql = "UPDATE Movies
 				SET Title = '".$_POST['editMovieTitle']."'
 				WHERE movieID = ".$currentMovie['movieID'];
 				$result = $mysqli -> query($sql);
 				echo("Movie title successfully edited.<br>");
-				//}
 			}
 
 			if(!empty($_POST['editRuntime'])){
@@ -134,19 +130,16 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 			}
 
 			if(!empty($_POST['editDescription'])){
-				/**if(!preg_match('/^[a-z0-9_\s]+$/i', $_POST['editalbumtitle'])){
-					echo("Album title may only contain letters, numbers, spaces, and underscores.");
-				}else{*/
-				//Update movie title.
 				$sql = "UPDATE Movies
 				SET Description = '".$_POST['editDescription']."'
 				WHERE movieID = ".$currentMovie['movieID'];
 				$result = $mysqli -> query($sql);
 				echo("Description successfully edited.<br>");
-				//}
+			
 			}
 
 			if(isset($_FILES['editImage'])){
+
 				$errors = array();
 				$file_name = $_FILES['editImage']['name'];
 			    $file_size =$_FILES['editImage']['size'];
@@ -156,7 +149,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 			    $expensions= array("jpeg","jpg","png");
       
-		      if(in_array($file_ext,$expensions)=== false){
+		      if(in_array($file_ext,$expensions) === false && strlen($file_ext) > 0){
 		         $errors[]="extension not allowed, please choose a JPEG or PNG file.";
 		      }
 		      
@@ -164,15 +157,13 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 		         $errors[]='File size cannot exceed 2 MB';
 		      }
 		      
-		      if(empty($errors)==true){
+		      if(empty($errors)==true && strlen($file_ext) > 0){
 		         move_uploaded_file($file_tmp,"dbImages/".$file_name);
 		         	$sql = "UPDATE Movies
 					SET Image = 'dbImages/".$file_name."'
 					WHERE movieID = ".$currentMovie['movieID'];
 					$result = $mysqli -> query($sql);
 		         echo ("Image successfully uploaded.<br>");
-		      }else{
-		         print_r($errors);
 		      }
 
 			}
@@ -189,8 +180,15 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 				}
 			}
 
-			echo("<p> 
-				Click <a href=\"adminLogin.php\">here</a> to make another edit.<p>");
+			if(isset($_POST['editSubtitles'])){
+					$sql = "UPDATE Movies
+					SET Subtitles = '".$_POST['editSubtitles']."'
+					WHERE movieID = ".$currentMovie['movieID'];
+					$result = $mysqli -> query($sql);
+					echo("Subtitles successfully edited.<br>");
+			}
+
+			echo("<p> Click <a href=\"adminLogin.php\">here</a> to make another edit.<p>");
 		}
 		
 	}
