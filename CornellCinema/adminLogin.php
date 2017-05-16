@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="styles/loginstyle.css" />
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/bootstrap.css">
-	<link rel="icon"       type="image/png"       href="http://example.com/myicon.png">
+	<link rel="icon" href="images/faveIcon.png" type="image/png">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
