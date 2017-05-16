@@ -22,7 +22,7 @@
 	</div>
 	<div class="container">
 		<div class="row header">
-			<?php include "includes/header.php"; 
+			<?php 
 			if(isset($_SESSION['logged_user'])){
 				echo("<p>You are logged in. 
 				Click <a href=\"index.php?logout=true\">here</a> to log out.<p>");
