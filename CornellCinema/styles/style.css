@@ -445,3 +445,21 @@ a {
 .WSHsunset {
 	width: 100%;
 }
+
+/** PRICES TABLE */
+
+.pricesTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pricesTable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+.pricesTable tr:nth-child(even) {
+    background-color: #dddddd;
+}

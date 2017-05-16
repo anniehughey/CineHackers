@@ -78,7 +78,37 @@
 				<!-- end of thumbnail 1 div -->
 				<div class="col-sm-12 col-lg-4 prices">
 					<h2>Ticket Prices</h2>
-					<ul>
+					<table class = "pricesTable">
+						<tr>
+							<td>Undergrad Students:</td>
+							<td>$5.50</td>
+						</tr>
+						<tr>
+							<td>Grad Students:</td>
+							<td>$6.00</td>
+						</tr>
+						<tr>
+							<td>General Public:</td>
+							<td>$8.50</td>
+						</tr>
+						<tr>
+							<td>Senior Citizens (62+):</td>
+							<td>$6.50</td>
+						</tr>
+						<tr>
+							<td>Kids 12 &amp; Under:</td>
+							<td>$5.50</td>
+						</tr>
+						<tr>
+							<td>Saturday and Sunday Matinees:</td>
+							<td>$5.50</td>
+						</tr>
+						<tr>
+							<td>Ithakid Film Fest Tickets:</td>
+							<td>$5.00 / $4.00 12 and Under</td>
+						</tr>
+					</table>
+					<!--<ul>
 						<li>Cornell Students: $5.50</li>
 						<li>Grad Students: $6</li>
 						<li>General Public: $8.50</li>
@@ -86,7 +116,7 @@
 						<li>Kids 12 &amp; Under: $5.50</li>
 						<li>Saturday and Sunday Matinees: $5.50 all</li>
 						<li>Ithakid Film Fest Tickets: $5.00 /$4.00 Kids 12 and Under</li>
-					</ul>
+					</ul>-->
 
 				</div>
 				<!-- end of thumbnail 2 div -->
