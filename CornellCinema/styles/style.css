@@ -211,7 +211,6 @@ span {
 }
 
 .title {
-	color: gray;
 	text-align: center;
 	margin: 10px;
 }
@@ -362,5 +361,12 @@ a {
 }
 
 #sage {
+	width: 60vw;
+}
+
+
+/* PARKING */
+
+#parkingmap {
 	width: 60vw;
 }
