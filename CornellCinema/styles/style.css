@@ -154,27 +154,39 @@ span {
 .thumbnails {
 	margin: 0 auto;
 	align-content: center;
+	padding: 15px;
 }
 
 .map {
+	padding: 5px;
 	background-color: gainsboro;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.googleMap {
+	width: 100%;
 }
 
 .prices {
+	padding: 5px;
 	background-color: gainsboro;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
+	height: 100%;
 }
 
 .media {
+	padding: 5px;
 	background-color: gainsboro;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
+	height: 100%;
+}
+
+.icon {
+	width: 30%;
+	padding: 4px;
 }
 
 
