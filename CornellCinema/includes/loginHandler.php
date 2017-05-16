@@ -19,7 +19,7 @@
 		and cannot exceed 16 characters.</p>';
 	}
 	require_once 'config.php';
-	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT); 
+	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
 	if( $mysqli->connect_errno ) {
 		echo "<p>$mysqli->connect_error<p>";
 		die( "Couldn't connect to database");
