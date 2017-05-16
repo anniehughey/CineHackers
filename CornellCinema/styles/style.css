@@ -205,7 +205,7 @@ span {
 /* PAGE CONTENT */
 
 .content {
-	max-width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -357,16 +357,19 @@ a {
 /* LOCATIONS */
 
 #WSH {
-	width: 60vw;
+	width: 100%;
+	padding: 15px;
 }
 
 #sage {
-	width: 60vw;
+	width: 100%;
+	padding: 15px;
 }
 
 
 /* PARKING */
 
-#parkingmap {
-	width: 60vw;
+#parkingMap {
+	width: 100%;
+	padding: 15px;
 }

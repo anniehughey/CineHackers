@@ -23,7 +23,7 @@
 		<!-- end of header row div -->
 		<!-- provide information and contact info for the different ways individuals can get involved. -->
 		<div class="row content">
-			<h1 class="title">GET INVOLVED</h1>
+			<h1 class="title">HOW TO GET INVOLVED</h1>
 			<!-- Include information about onscreen advertising, including its benefits and pricing -->
 			<!-- Also include contact info for this -->
 			<p class="text">
