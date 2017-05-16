@@ -29,7 +29,7 @@
 			</p>
 			<a href="contact.php">
 				<div class="donate">
-					<h1 class="donateButton">ADVERTISE NOW</h1>
+					<h1 class="donateButton">TELL US ABOUT YOUR ADVERTISEMENT</h1>
 				</div>
 			</a>
 			<!-- end of donate div-->

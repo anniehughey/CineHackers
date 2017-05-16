@@ -31,7 +31,7 @@
 			</p>
 			<a href="contact.php">
 				<div class="donate">
-					<h1 class="donateButton">ADVERTISE NOW</h1>
+					<h1 class="donateButton">WE'D LIKE TO HEAR FROM YOU</h1>
 				</div>
 			</a>
 			<!-- end of donate div-->
