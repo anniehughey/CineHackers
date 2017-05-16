@@ -20,6 +20,7 @@
 			<?php include "includes/header.php" ?>
 		</div>
 		<!-- end of header row div -->
+		<?php include "includes/filmsHandler.php" ?>
 		<!-- Display all films alphabetically by default. Each film will show up in its own container, and the container will include the film photo, title, director, and year of production. Clicking on a film will bring the user to a specific movie page with more detail. -->
 		<!-- A sorting feature will be implemented here where we can sort films by series, date of showing, alphabetically by title, numerically by year, or even by director. -->
 		<div class="row footer">
