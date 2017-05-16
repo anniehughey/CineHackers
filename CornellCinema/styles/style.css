@@ -154,27 +154,39 @@ span {
 .thumbnails {
 	margin: 0 auto;
 	align-content: center;
+	padding: 15px;
 }
 
 .map {
+	padding: 5px;
 	background-color: gainsboro;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.googleMap {
+	width: 100%;
 }
 
 .prices {
+	padding: 5px;
 	background-color: gainsboro;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
+	height: 100%;
 }
 
 .media {
+	padding: 5px;
 	background-color: gainsboro;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 10px;
+	height: 100%;
+}
+
+.icon {
+	width: 30%;
+	padding: 4px;
 }
 
 
@@ -205,13 +217,12 @@ span {
 /* PAGE CONTENT */
 
 .content {
-	max-width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .title {
-	color: gray;
 	text-align: center;
 	margin: 10px;
 }
@@ -221,7 +232,8 @@ span {
 }
 
 .donate {
-	max-width: 960px;
+	background-color: white;
+	width: 100%;
 	border: 2px;
 	border-color: #f32d2d;
 }
@@ -358,11 +370,21 @@ a {
 /* LOCATIONS */
 
 #WSH {
-	width: 60vw;
+	width: 100%;
+	padding: 15px;
 }
 
 #sage {
-	width: 60vw;
+	width: 100%;
+	padding: 15px;
+}
+
+
+/* PARKING */
+
+#parkingMap {
+	width: 100%;
+	padding: 15px;
 }
 
 /**Film Containers */

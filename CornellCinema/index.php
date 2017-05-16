@@ -70,17 +70,34 @@
 
 			<div class="row thumbnails">
 				<div class="col-sm-12 col-lg-4 map">
-					<h1>GOOGLE MAPS PLUG IN</h1>
+					<h2>Our Location</h2>
+					<a href="locations.php"><img src="images/map.png" class="googleMap" alt="Cornell Cinema Location Google Maps"></a>
+					<!-- img src: google maps -->
 
 				</div>
 				<!-- end of thumbnail 1 div -->
 				<div class="col-sm-12 col-lg-4 prices">
-					<h1>PRICE AND TICKET INFO HERE</h1>
+					<h2>Ticket Prices</h2>
+					<ul>
+						<li>Cornell Students: $5.50</li>
+						<li>Grad Students: $6</li>
+						<li>General Public: $8.50</li>
+						<li>Senior Citizens (62+): $6.50</li>
+						<li>Kids 12 &amp; Under: $5.50</li>
+						<li>Saturday and Sunday Matinees: $5.50 all</li>
+						<li>Ithakid Film Fest Tickets: $5.00 /$4.00 Kids 12 and Under</li>
+					</ul>
 
 				</div>
 				<!-- end of thumbnail 2 div -->
 				<div class="col-sm-12 col-lg-4 media">
-					<h1>SOCIAL MEDIA PLUG INS</h1>
+					<h2>Connect With Us</h2>
+					<a href="FACEBOOK" target="_blank"><img src="images/facebook.png" alt="Facebook Logo" class="icon"></a>
+					<!-- img src: free icons from iconfinder.com-->
+					<a href="https://www.youtube.com/channel/UCEsbzELlJGpmPBDKUikprIw" target="_blank"><img src="images/youtube.png" alt="Youtube Logo" class="icon"></a>
+					<!-- img src: free icons from iconfinder.com-->
+					<a href="twitter" target="_blank"><img src="images/twitter.png" alt="Twitter Logo" class="icon"></a>
+					<!-- img src: free icons from iconfinder.com-->
 
 				</div>
 				<!-- end of thumbnail 3 div -->

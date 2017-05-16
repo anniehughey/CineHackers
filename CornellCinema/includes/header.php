@@ -16,8 +16,9 @@
 				<div class="dropdown-content">
 					<a href="schedule.php">SCHEDULE</a>
 					<a href="specialGuests.php">SPECIAL EVENTS</a>
-					<a href="prices.php">PRICES</a>
+					<a href="series.php">SERIES</a>
 					<a href="allFilms.php">ALL FILMS</a>
+					<a href="prices.php">PRICES</a>
 				</div>
 				<!-- end of Films dropdown content-->
 
