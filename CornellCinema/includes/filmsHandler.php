@@ -30,13 +30,13 @@
 			$selectoption = $_POST['select'];
 			$ascdesc = $_POST['ascdesc'];
 			if ($selectoption == 'title'){
-				$query = 'SELECT * FROM movies ORDER BY title ';
+				$query = 'SELECT * FROM Movies ORDER BY Title ';
 			}
 			if ($selectoption == 'release') {
-				$query = 'SELECT * FROM movies ORDER BY ReleaseYearCountry ';
+				$query = 'SELECT * FROM Movies ORDER BY ReleaseYearCountry ';
 			}
 			if ($selectoption == 'time') {
-				$query = 'SELECT * FROM movies ORDER BY Runtime ';
+				$query = 'SELECT * FROM Movies ORDER BY Runtime ';
 			}
 			if ($ascdesc == 'asc') {
 				$query = $query.'ASC';
