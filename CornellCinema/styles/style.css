@@ -189,6 +189,10 @@ span {
 	padding: 4px;
 }
 
+.icon:hover {
+	opacity: 0.8;
+}
+
 
 /* FOOTER */
 
@@ -362,7 +366,7 @@ a {
 
 /* MOBILE */
 
-#mobile {
+#hamburger {
 	max-width: 50px;
 }
 

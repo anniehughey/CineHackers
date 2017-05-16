@@ -29,7 +29,7 @@
 					<p class="text">
 						Films are screened five nights a week (Wed–Sun) in the beautiful and historic Willard Straight Theatre (pictured) during the academic year. Occasional screenings are held in Sage Chapel and outside on the Willard Straight Terrace.
 					</p>
-					<p class="text">Willard Straight Theatre is equipped with Dolby Digital Surround Sound, DCP, 35mm reel-to-reel (w/silent speed option), Blu-ray and DVD projection facilities. 16mm can also be accommodated with portable projectors. A concession stand in the lobby sells reasonably priced popcorn, beverages, candy and organic snacks from the Greenstar Cooperative Market. Seating capacity is 340.Click here for information about <a href="http://cinema.cornell.edu/info/cornell_map.html">directions and parking</a>.</p>
+					<p class="text">Willard Straight Theatre is equipped with Dolby Digital Surround Sound, DCP, 35mm reel-to-reel (w/silent speed option), Blu-ray and DVD projection facilities. 16mm can also be accommodated with portable projectors. A concession stand in the lobby sells reasonably priced popcorn, beverages, candy and organic snacks from the Greenstar Cooperative Market. Seating capacity is 340.Click here for information about <a href="parking.php">directions and parking</a>.</p>
 				</div>
 				<div class="col-sm-12 col-lg-9">
 					<img src="images/theater_image.jpg" alt="Willard Straight Hall" id="WSH">

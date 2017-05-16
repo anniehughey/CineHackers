@@ -92,11 +92,11 @@
 				<!-- end of thumbnail 2 div -->
 				<div class="col-sm-12 col-lg-4 media">
 					<h2>Connect With Us</h2>
-					<a href="FACEBOOK" target="_blank"><img src="images/facebook.png" alt="Facebook Logo" class="icon"></a>
+					<a href="https://www.facebook.com/Cornell-Cinema-215249100528/" target="_blank"><img src="images/facebook.png" alt="Facebook Logo" class="icon"></a>
 					<!-- img src: free icons from iconfinder.com-->
 					<a href="https://www.youtube.com/channel/UCEsbzELlJGpmPBDKUikprIw" target="_blank"><img src="images/youtube.png" alt="Youtube Logo" class="icon"></a>
 					<!-- img src: free icons from iconfinder.com-->
-					<a href="twitter" target="_blank"><img src="images/twitter.png" alt="Twitter Logo" class="icon"></a>
+					<a href="https://twitter.com/CornellCinema?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png" alt="Twitter Logo" class="icon"></a>
 					<!-- img src: free icons from iconfinder.com-->
 
 				</div>
