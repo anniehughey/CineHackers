@@ -15,7 +15,6 @@
 				<button class="dropbtn">FILMS</button>
 				<div class="dropdown-content">
 					<a href="schedule.php">SCHEDULE</a>
-					<a href="series.php">SERIES</a>
 					<a href="specialGuests.php">SPECIAL EVENTS</a>
 					<a href="allFilms.php">ALL FILMS</a>
 				</div>
