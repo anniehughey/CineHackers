@@ -2,6 +2,7 @@
 <?php 
 require_once 'config.php';
 $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+$mysqli->set_charset("utf8");
 
 	if(isset($_SESSION['logged_user'])){
 		if (!isset($_POST['submitEdits'])) {
@@ -34,14 +35,14 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 							<br /><br />
 							Edit Website: <input type = "text" name = "editWebsite">
 							<br /><br />
-							Edit Description: <textarea name = "editDescription" rows = "4" cols = "50"></textarea>
-							<br /><br />
 							Edit Image: <input type="file" name="editImage" /> 
 							<br /><br />
 							Edit Trailer: <input type = "text" name = "editTrailer">
 							<br /><br />
 							Subtitles?: <br><input type = "radio" name = "editSubtitles" value = "0">No<br>
 										<input type = "radio" name = "editSubtitles" value = "1">Yes<br>
+							<br /><br />
+							Edit Description: <br><textarea name = "editDescription" rows = "4" cols = "50"></textarea>
 							<br /><br />
 						
 					
