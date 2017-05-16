@@ -37,8 +37,8 @@
 		<div class="row header">
 			<?php include "includes/header.php" ?>
 		</div>
+		<!-- end of header row div-->
 		<div class="container-fluid">
-			<!-- end of header row div-->
 			<div class="row row-centered">
 				<div class="col-sm-12 col-lg-12 col-centered" id='coin-slider'>
 					<a href="img01_url" target="_blank">

@@ -41,17 +41,6 @@
 			</div>
 			<!-- end of Films dropdown-->
 		</li>
-		<li>
-			<div class="search">
-				<form method="post" action="searchResults.php">
-					<input type="text" name="searchtext" placeholder="Search Movies or Events">
-					<input type="submit" name="submitbutton" value="Search">
-				</form>
-				<a href="search.php" class="nav_item">
-				</a>
-			</div>
-			<!-- end of search div-->
-		</li>
 
 	</ul>
 </div>
